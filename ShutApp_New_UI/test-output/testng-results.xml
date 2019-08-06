@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-06T06:20:11Z" name="Default suite" finished-at="2019-08-06T06:22:34Z" duration-ms="143161">
+    <groups>
+    </groups>
+    <test started-at="2019-08-06T06:20:11Z" name="Default test" finished-at="2019-08-06T06:22:34Z" duration-ms="143161">
+      <class name="com.shutapp.loginflow.AppiumServer">
+        <test-method is-config="true" signature="startServer()[pri:0, instance:com.shutapp.loginflow.AppiumServer@778d1062]" started-at="2019-08-06T06:20:01Z" name="startServer" finished-at="2019-08-06T06:20:11Z" duration-ms="10062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startServer -->
+        <test-method is-config="true" signature="Capabilities()[pri:0, instance:com.shutapp.loginflow.AppiumServer@778d1062]" started-at="2019-08-06T06:20:11Z" name="Capabilities" finished-at="2019-08-06T06:20:27Z" duration-ms="16137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Capabilities -->
+        <test-method signature="OnBoardingScreenOne()[pri:1, instance:com.shutapp.loginflow.AppiumServer@778d1062]" started-at="2019-08-06T06:20:27Z" name="OnBoardingScreenOne" finished-at="2019-08-06T06:20:40Z" duration-ms="12904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnBoardingScreenOne -->
+        <test-method signature="MobileNumber()[pri:2, instance:com.shutapp.loginflow.AppiumServer@778d1062]" started-at="2019-08-06T06:20:40Z" name="MobileNumber" finished-at="2019-08-06T06:21:08Z" duration-ms="27761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileNumber -->
+        <test-method signature="OTP()[pri:3, instance:com.shutapp.loginflow.AppiumServer@778d1062]" started-at="2019-08-06T06:21:08Z" name="OTP" finished-at="2019-08-06T06:21:45Z" duration-ms="37571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OTP -->
+        <test-method signature="EnterUserName()[pri:4, instance:com.shutapp.loginflow.AppiumServer@778d1062]" started-at="2019-08-06T06:21:45Z" name="EnterUserName" finished-at="2019-08-06T06:22:23Z" duration-ms="37965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterUserName -->
+        <test-method signature="OnBoardingScreenThree()[pri:5, instance:com.shutapp.loginflow.AppiumServer@778d1062]" started-at="2019-08-06T06:22:23Z" name="OnBoardingScreenThree" finished-at="2019-08-06T06:22:34Z" duration-ms="10793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnBoardingScreenThree -->
+      </class> <!-- com.shutapp.loginflow.AppiumServer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
