@@ -5,13 +5,9 @@
     <classes>
       <class name="com.shutapp.loginflow.AppiumServer">
         <methods>
-          <include name="MobileNumber"/>
           <include name="startServer"/>
           <include name="Capabilities"/>
-          <include name="OnBoardingScreenThree"/>
-          <include name="EnterUserName"/>
-          <include name="OTP"/>
-          <include name="OnBoardingScreenOne"/>
+          <include name="ShutModes"/>
         </methods>
       </class> <!-- com.shutapp.loginflow.AppiumServer -->
     </classes>
