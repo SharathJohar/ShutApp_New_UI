@@ -31,7 +31,7 @@ import java.util.concurrent.TimeUnit;
 public class AppiumServer {
 
 	public AndroidDriver<AndroidElement> driver;
-	static Logger log = LogManager.getLogger(AppiumServer.class);
+	static Logger Log = LogManager.getLogger(AppiumServer.class);
 
 	// This method will start Appium server through command prompt
 	@BeforeSuite
@@ -42,7 +42,7 @@ public class AppiumServer {
 			runtime.exec(
 					"cmd.exe /c start cmd.exe /k \"appium -a 127.0.0.1 -p 4723 --session-override -dc \"{\"\"noReset\"\": \"\"false\"\"}\"\"");
 			Thread.sleep(10000);
-			log.info("Appium server started successfully");
+			Log.info("Appium server started successfully");
 		} catch (IOException | InterruptedException e) {
 			e.printStackTrace();
 		}
@@ -55,7 +55,7 @@ public class AppiumServer {
 		try {
 			runtime.exec("taskkill /F /IM node.exe");
 			runtime.exec("taskkill /F /IM cmd.exe");
-			log.info("Appium server stopped successfully");
+			Log.info("Appium server stopped successfully");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -74,7 +74,7 @@ public class AppiumServer {
 				"in.dbst.shutappv1.ui.components.launcher.ActivityLauncher");
 		driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		log.info("ShutApp Launched");
+		Log.info("ShutApp Launched");
 	}
 
 	@Test(priority = 1)
@@ -109,23 +109,23 @@ public class AppiumServer {
 		try {
 			scrollIntoView.isDisplayed();
 			IndSelect.click();
-			log.info("Country Selected");
+			Log.info("Country Selected");
 		} catch (NoSuchElementException e) {
 			search.click();
 			search.sendKeys("India");
 			IndSelect.click();
-			log.warn("Zimbabwe");
+			Log.warn("Zimbabwe");
 		}
 
 		driver.findElementById("in.dbst.shutappv1.dev:id/input").sendKeys("4444666666");
 		WebElement next = driver.findElementById("in.dbst.shutappv1.dev:id/action_next");
 
 		if (next.isEnabled()) {
-			log.info("Next Button is Enabled");
+			Log.info("Next Button is Enabled");
 			next.click();
 		} else {
-			log.info("Invalid Phone Number");
-			log.info("Shutting Down App");
+			Log.info("Invalid Phone Number");
+			Log.info("Shutting Down App");
 			driver.quit();
 		}
 	}
@@ -136,9 +136,9 @@ public class AppiumServer {
 		try {
 			new WebDriverWait(driver, 60).until(ExpectedConditions
 					.invisibilityOfElementLocated(By.id("in.dbst.shutappv1.dev:id/tb_progress_view_profile")));
-			log.info("Page uploaded");
+			Log.info("Page uploaded");
 		} catch (TimeoutException e) {
-			log.info("Page not uploaded in 60 sec");
+			Log.info("Page not uploaded in 60 sec");
 		}
 		driver.findElementById("in.dbst.shutappv1.dev:id/onboard_otp_fragment_input").sendKeys("123456");
 		driver.findElementById("in.dbst.shutappv1.dev:id/tb_dialpad_done").click();
@@ -150,43 +150,43 @@ public class AppiumServer {
 		try {
 			new WebDriverWait(driver, 60).until(ExpectedConditions
 					.invisibilityOfElementLocated(By.id("in.dbst.shutappv1.dev:id/tb_progress_view_profile")));
-			log.info("Page uploaded");
+			Log.info("Page uploaded");
 		} catch (TimeoutException e) {
-			log.info("Page not uploaded in 60 sec");
+			Log.info("Page not uploaded in 60 sec");
 		}
 		WebElement FillYourProfile = driver.findElementByXPath("//android.widget.TextView[@text='Fill Your Profile']");
 		String Fill_Your_Profile = FillYourProfile.getText();
 		System.out.println(Fill_Your_Profile + " Page is Loaded");
 		driver.findElementById("in.dbst.shutappv1.dev:id/profile_pic").click();
-		log.info("Clicked on Avatar");
+		Log.info("Clicked on Avatar");
 		driver.findElementById("in.dbst.shutappv1.dev:id/chat_attachment_dialog_btn_camera").click();
-		log.info("Camera selected");
+		Log.info("Camera selected");
 //		driver.findElementById("in.dbst.shutappv1.dev:id/chat_attachment_dialog_btn_gallery").click();
 //		driver.findElementByXPath("//android.widget.LinearLayout[@index='3']").click();
 		driver.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
-		log.info("Camera accessed");
+		Log.info("Camera accessed");
 		driver.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
-		log.info("Photos and media accessesd");
+		Log.info("Photos and media accessesd");
 //		driver.findElementByXPath("//android.widget.LinearLayout[@index='6']").click(); //MI A2
 //		log.info("Image uploading"); //MI A2
 //		driver.findElementByAccessibilityId("Shutter button").click();//MI A2
 		driver.findElementByXPath("//GLButton[@text='Shutter']").click(); // --Samsung--//
-		log.info("Image captured");
+		Log.info("Image captured");
 //		driver.findElementByAccessibilityId("Done").click();
 		driver.findElementById("com.sec.android.app.camera:id/okay").click(); // --Samsung--//
-		log.info("click on Done");
+		Log.info("click on Done");
 		try {
 			new WebDriverWait(driver, 60).until(ExpectedConditions
 					.invisibilityOfElementLocated(By.id("in.dbst.shutappv1.dev:id/dp_image_progressbar")));
-			log.info("Image uploaded");
+			Log.info("Image uploaded");
 		} catch (TimeoutException e) {
-			log.info("Image not uploaded in 60 sec");
+			Log.info("Image not uploaded in 60 sec");
 		}
 		driver.findElementById("in.dbst.shutappv1.dev:id/male_gender_parent_layout").click();
 		driver.findElementById("in.dbst.shutappv1.dev:id/female_gender").click();
 		driver.findElementById("in.dbst.shutappv1.dev:id/other_gender").click();
 		driver.findElementById("in.dbst.shutappv1.dev:id/male_gender_parent_layout").click();
-		log.info("Gender selected");
+		Log.info("Gender selected");
 		driver.findElementById("in.dbst.shutappv1.dev:id/user_name_text").sendKeys("Sharath");
 		driver.findElementById("in.dbst.shutappv1.dev:id/action_next").click();
 	}
