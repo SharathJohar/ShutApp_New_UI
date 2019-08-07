@@ -136,12 +136,12 @@ public class AppiumServer {
 		try {
 			new WebDriverWait(driver, 60).until(ExpectedConditions
 					.invisibilityOfElementLocated(By.id("in.dbst.shutappv1.dev:id/tb_progress_view_profile")));
-			Log.info("Page uploaded");
+			Log.info("OTP Page loaded");
+			driver.findElementById("in.dbst.shutappv1.dev:id/onboard_otp_fragment_input").sendKeys("123456");
+			driver.findElementById("in.dbst.shutappv1.dev:id/tb_dialpad_done").click();
 		} catch (TimeoutException e) {
-			Log.info("Page not uploaded in 60 sec");
+			Log.fatal("Page not uploaded in 60 sec");
 		}
-		driver.findElementById("in.dbst.shutappv1.dev:id/onboard_otp_fragment_input").sendKeys("123456");
-		driver.findElementById("in.dbst.shutappv1.dev:id/tb_dialpad_done").click();
 	}
 
 	@Test(priority = 4)
@@ -150,9 +150,9 @@ public class AppiumServer {
 		try {
 			new WebDriverWait(driver, 60).until(ExpectedConditions
 					.invisibilityOfElementLocated(By.id("in.dbst.shutappv1.dev:id/tb_progress_view_profile")));
-			Log.info("Page uploaded");
+			Log.info("Profile Page loaded");
 		} catch (TimeoutException e) {
-			Log.info("Page not uploaded in 60 sec");
+			Log.fatal("Page not uploaded in 60 sec");
 		}
 		WebElement FillYourProfile = driver.findElementByXPath("//android.widget.TextView[@text='Fill Your Profile']");
 		String Fill_Your_Profile = FillYourProfile.getText();
@@ -180,7 +180,7 @@ public class AppiumServer {
 					.invisibilityOfElementLocated(By.id("in.dbst.shutappv1.dev:id/dp_image_progressbar")));
 			Log.info("Image uploaded");
 		} catch (TimeoutException e) {
-			Log.info("Image not uploaded in 60 sec");
+			Log.fatal("Image not uploaded in 60 sec");
 		}
 		driver.findElementById("in.dbst.shutappv1.dev:id/male_gender_parent_layout").click();
 		driver.findElementById("in.dbst.shutappv1.dev:id/female_gender").click();
@@ -212,64 +212,37 @@ public class AppiumServer {
 	/**
 	 * @return
 	 */
-
-	// @Test(priority = 3)
-	public void WelCome() throws MalformedURLException, InterruptedException {
-
-		MobileElement welcome = driver.findElementByXPath("//android.widget.TextView[@text='WELCOME']");
-		String isDisplayed = welcome.getText();
-		System.out.println("PageName is: " + isDisplayed);
-		MobileElement UserName = driver.findElementByXPath("//android.widget.TextView[@index='1']");
-		String isDisplayed1 = UserName.getText();
-		System.out.println("UserName is: " + isDisplayed1);
-		MobileElement dp = driver.findElementById("in.dbst.shutappv1.dev:id/dp_img");
-		boolean isDisplayed2 = dp.isDisplayed();
-		System.out.println("DP is " + isDisplayed2);
-		driver.findElementByXPath("//android.widget.Button[@text='Shut Modes']").click();
-		System.out.println("Clicked on ShutMode");
-
-	}
-
 	@Test(priority = 6)
-	public void ShutModes() throws MalformedURLException, InterruptedException {
+	public void ShutMode() throws MalformedURLException, InterruptedException {
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-		MobileElement ShutMode = driver.findElementByXPath("//android.widget.TextView[@text='Shut Mode']");
-		String Shut = ShutMode.getText();
-		MobileElement PersonnelSapce = driver
-				.findElementByXPath("//android.widget.TextView[@text='For your personal space']");
-		String PerSpace = PersonnelSapce.getText();
-		System.out.println("PageName is: " + Shut + PerSpace + "  is Launched");
-		driver.findElementById("in.dbst.shutappv1.dev:id/welcome_modes_fragment_normal_mode_btn").click();
-		MobileElement NormalMode = driver.findElementByXPath("//android.widget.TextView[@text='Normal Mode']");
-		System.out.println("Clicked on NormalMode");
-		String Normal = NormalMode.getText();
-		MobileElement BetterExperience = driver
-				.findElementByXPath("//android.widget.TextView[@text='Better Experience']");
-		String BetterExp = BetterExperience.getText();
-		System.out.println("PageName is: " + Normal + BetterExp + "  is Launched");
-		driver.findElementByXPath("//android.widget.Button[@text='Shut Modes']").click();
-		System.out.println("Clicked on ShutMode");
-		driver.findElementByXPath(
-				"//android.widget.Button[@resource-id='in.dbst.shutappv1.dev:id/welcome_modes_fragment_btn_setlock']")
-				.click();
-		System.out.println("Clicked on Set Lock");
-
-		driver.findElementById("in.dbst.shutappv1.dev:id/shut_mode_activity_pin_input_show").sendKeys("1111");
+		Log.info(driver.findElementById("in.dbst.shutappv1.dev:id/set_pin_header").getText());
+		MobileElement EneterNewPin = driver.findElementById("in.dbst.shutappv1.dev:id/shutmode_pin_view");
+		EneterNewPin.sendKeys("1111");
 		driver.hideKeyboard();
-		driver.findElementById("in.dbst.shutappv1.dev:id/tb_dialpad_done").click();
-		driver.findElementById("in.dbst.shutappv1.dev:id/shut_mode_activity_pin_input_show").sendKeys("1111");
-		driver.hideKeyboard();
-		driver.findElementById("in.dbst.shutappv1.dev:id/tb_dialpad_done").click();
-//		WebElement toastView = driver.findElementByXPath("//android.widget.Toast[1]");
-//		String text = toastView.getAttribute("name");
-//		System.out.println("Toast Message is : " + text);
-		driver.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
-		System.out.println("Welcome to ShutApp Recent Chats");
+		driver.findElementById("in.dbst.shutappv1.dev:id/set_lock_btn").click();
 
+		Log.info(driver.findElementById("in.dbst.shutappv1.dev:id/set_pin_header").getText());
+		MobileElement Reenter_pin = driver.findElementById("in.dbst.shutappv1.dev:id/shutmode_pin_view");
+		Reenter_pin.sendKeys("1117");
+		driver.hideKeyboard();
+		driver.findElementById("in.dbst.shutappv1.dev:id/set_lock_btn").click();
+
+		MobileElement PopUpTetx = driver.findElementById("in.dbst.shutappv1.dev:id/pop_up_text");
+		if (PopUpTetx.isDisplayed()) {
+			driver.findElementById("in.dbst.shutappv1.dev:id/set_pin_back").click();
+			EneterNewPin.sendKeys("1111");
+			driver.hideKeyboard();
+			driver.findElementById("in.dbst.shutappv1.dev:id/set_lock_btn").click();
+			Reenter_pin.sendKeys("1111");
+			driver.hideKeyboard();
+			driver.findElementById("in.dbst.shutappv1.dev:id/set_lock_btn").click();
+			driver.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
+		}
+		Log.info("Welcome");
 	}
 
 	public AndroidDriver<AndroidElement> fetch_driver() {
-//		AndroidDriver<AndroidElement> mydriver = driver;
 		return driver;
 	}
 
