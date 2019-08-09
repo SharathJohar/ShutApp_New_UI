@@ -1,4 +1,4 @@
-package com.shutapp.loginflow;
+package com.shutapp.newui.loginflow;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
@@ -6,7 +6,6 @@ import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.AutomationName;
 import io.appium.java_client.remote.MobileCapabilityType;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -18,7 +17,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -79,16 +77,19 @@ public class AppiumServer {
 
 	@Test(priority = 1)
 	public void OnBoardingScreenOne() throws MalformedURLException, InterruptedException {
-		System.out.println("Page 1: " + driver.findElementById("in.dbst.shutappv1.dev:id/header").getText());
-		System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/subtext").getText());
+		// System.out.println("Page 1: " +
+		// driver.findElementById("in.dbst.shutappv1.dev:id/header").getText());
+		// System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/subtext").getText());
 		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
 
-		System.out.println("Page 2: " + driver.findElementById("in.dbst.shutappv1.dev:id/header").getText());
-		System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/subtext").getText());
+		// System.out.println("Page 2: " +
+		// driver.findElementById("in.dbst.shutappv1.dev:id/header").getText());
+		// System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/subtext").getText());
 		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
 
-		System.out.println("Page 3: " + driver.findElementById("in.dbst.shutappv1.dev:id/header").getText());
-		System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/subtext").getText());
+		// System.out.println("Page 3: " +
+		// driver.findElementById("in.dbst.shutappv1.dev:id/header").getText());
+		// System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/subtext").getText());
 		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
 	}
 
@@ -117,7 +118,7 @@ public class AppiumServer {
 			Log.warn("Zimbabwe");
 		}
 
-		driver.findElementById("in.dbst.shutappv1.dev:id/input").sendKeys("4444666666");
+		driver.findElementById("in.dbst.shutappv1.dev:id/input").sendKeys("9606048675");
 		WebElement next = driver.findElementById("in.dbst.shutappv1.dev:id/action_next");
 
 		if (next.isEnabled()) {
@@ -130,7 +131,7 @@ public class AppiumServer {
 		}
 	}
 
-	@Test(priority = 3)
+	// @Test(priority = 3)
 	public void OTP() throws MalformedURLException, InterruptedException {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		try {
@@ -194,18 +195,21 @@ public class AppiumServer {
 	@Test(priority = 5)
 	public void OnBoardingScreenThree() throws MalformedURLException, InterruptedException {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		System.out.println("Page 1: " + driver.findElementById("in.dbst.shutappv1.dev:id/hide_chat_header").getText());
-		System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/hide_chat_sub_text").getText());
+		// System.out.println("Page 1: " +
+		// driver.findElementById("in.dbst.shutappv1.dev:id/hide_chat_header").getText());
+		// System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/hide_chat_sub_text").getText());
 		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
 
-		System.out
-				.println("Page 2: " + driver.findElementById("in.dbst.shutappv1.dev:id/on_board_one_header").getText());
-		System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/on_board_one_subtext").getText());
+		// System.out
+		// .println("Page 2: " +
+		// driver.findElementById("in.dbst.shutappv1.dev:id/on_board_one_header").getText());
+		// System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/on_board_one_subtext").getText());
 		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
 
-		System.out
-				.println("Page 3: " + driver.findElementById("in.dbst.shutappv1.dev:id/un_hide_chat_header").getText());
-		System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/un_hide_chat_subtext").getText());
+		// System.out
+		// .println("Page 3: " +
+		// driver.findElementById("in.dbst.shutappv1.dev:id/un_hide_chat_header").getText());
+		// System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/un_hide_chat_subtext").getText());
 		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
 	}
 
@@ -238,6 +242,8 @@ public class AppiumServer {
 			driver.hideKeyboard();
 			driver.findElementById("in.dbst.shutappv1.dev:id/set_lock_btn").click();
 			driver.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
+		} else {
+			Log.fatal("Unable to set Lock");
 		}
 		Log.info("Welcome");
 	}

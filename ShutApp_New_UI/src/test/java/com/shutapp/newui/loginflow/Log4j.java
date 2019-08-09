@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.shutapp.loginflow;
+package com.shutapp.newui.loginflow;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
