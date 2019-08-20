@@ -90,7 +90,7 @@ public class CreatePrivateGroupTest extends AppiumServer {
 		WebElement Text = driver.findElementById("in.dbst.shutappv1.dev:id/chat_message_text_box_input");
 		WebElement Send = driver.findElementById("in.dbst.shutappv1.dev:id/chat_message_send_fab");
 		for (int i = 0; i < 20; i++) {
-			Text.sendKeys("Abcdefghdfdefghijklmnopqrstuvwxyz");
+			Text.sendKeys("Abcdefghdfdefghijklmnopqrstuvwxyz!");
 			Send.click();
 
 		}
