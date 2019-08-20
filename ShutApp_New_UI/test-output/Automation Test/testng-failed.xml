@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Automation Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke Test(failed)">
     <classes>
       <class name="com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest">
         <methods>
           <include name="TextMessage"/>
+          <include name="OnBoardingScreenOne"/>
           <include name="ShutMode"/>
           <include name="AnonymousVideos"/>
           <include name="EnterUserName"/>
           <include name="AnonymousAudios"/>
           <include name="BulkAudios"/>
+          <include name="TTL"/>
           <include name="Capabilities"/>
           <include name="Videos"/>
           <include name="CreateGroup"/>
+          <include name="MobileNumber"/>
           <include name="AnonymousTextMessage"/>
           <include name="OnBoardingScreenThree"/>
           <include name="Images"/>
@@ -22,5 +25,5 @@
         </methods>
       </class> <!-- com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [Automation Test] -->

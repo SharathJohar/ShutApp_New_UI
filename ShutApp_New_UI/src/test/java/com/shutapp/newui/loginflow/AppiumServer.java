@@ -77,19 +77,11 @@ public class AppiumServer {
 
 	@Test(priority = 1)
 	public void OnBoardingScreenOne() throws MalformedURLException, InterruptedException {
-		// System.out.println("Page 1: " +
-		// driver.findElementById("in.dbst.shutappv1.dev:id/header").getText());
-		// System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/subtext").getText());
+		Log.info("Page 1: " + driver.findElementById("in.dbst.shutappv1.dev:id/header").getText());
 		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
-
-		// System.out.println("Page 2: " +
-		// driver.findElementById("in.dbst.shutappv1.dev:id/header").getText());
-		// System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/subtext").getText());
+		Log.info("Page 2: " + driver.findElementById("in.dbst.shutappv1.dev:id/header").getText());
 		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
-
-		// System.out.println("Page 3: " +
-		// driver.findElementById("in.dbst.shutappv1.dev:id/header").getText());
-		// System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/subtext").getText());
+		Log.info("Page 3: " + driver.findElementById("in.dbst.shutappv1.dev:id/header").getText());
 		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
 	}
 
@@ -118,7 +110,7 @@ public class AppiumServer {
 			Log.warn("Zimbabwe");
 		}
 
-		driver.findElementById("in.dbst.shutappv1.dev:id/input").sendKeys("9606048675");
+		driver.findElementById("in.dbst.shutappv1.dev:id/input").sendKeys("4444666666");
 		WebElement next = driver.findElementById("in.dbst.shutappv1.dev:id/action_next");
 
 		if (next.isEnabled()) {
@@ -131,7 +123,7 @@ public class AppiumServer {
 		}
 	}
 
-	// @Test(priority = 3)
+	@Test(priority = 3)
 	public void OTP() throws MalformedURLException, InterruptedException {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		try {
@@ -157,7 +149,7 @@ public class AppiumServer {
 		}
 		WebElement FillYourProfile = driver.findElementByXPath("//android.widget.TextView[@text='Fill Your Profile']");
 		String Fill_Your_Profile = FillYourProfile.getText();
-		System.out.println(Fill_Your_Profile + " Page is Loaded");
+		Log.info(Fill_Your_Profile + " Page is Loaded");
 		driver.findElementById("in.dbst.shutappv1.dev:id/profile_pic").click();
 		Log.info("Clicked on Avatar");
 		driver.findElementById("in.dbst.shutappv1.dev:id/chat_attachment_dialog_btn_camera").click();
@@ -195,21 +187,11 @@ public class AppiumServer {
 	@Test(priority = 5)
 	public void OnBoardingScreenThree() throws MalformedURLException, InterruptedException {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		// System.out.println("Page 1: " +
-		// driver.findElementById("in.dbst.shutappv1.dev:id/hide_chat_header").getText());
-		// System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/hide_chat_sub_text").getText());
+		Log.info("Page 1: " + driver.findElementById("in.dbst.shutappv1.dev:id/hide_chat_header").getText());
 		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
-
-		// System.out
-		// .println("Page 2: " +
-		// driver.findElementById("in.dbst.shutappv1.dev:id/on_board_one_header").getText());
-		// System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/on_board_one_subtext").getText());
+		Log.info("Page 2: " + driver.findElementById("in.dbst.shutappv1.dev:id/on_board_one_header").getText());
 		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
-
-		// System.out
-		// .println("Page 3: " +
-		// driver.findElementById("in.dbst.shutappv1.dev:id/un_hide_chat_header").getText());
-		// System.out.println(driver.findElementById("in.dbst.shutappv1.dev:id/un_hide_chat_subtext").getText());
+		Log.info("Page 3: " + driver.findElementById("in.dbst.shutappv1.dev:id/un_hide_chat_header").getText());
 		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
 	}
 
