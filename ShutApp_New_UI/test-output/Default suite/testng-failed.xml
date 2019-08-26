@@ -3,24 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest">
+      <class name="com.shutapp.newui.loginflow.AppiumServer">
         <methods>
-          <include name="TextMessage"/>
-          <include name="ShutMode"/>
-          <include name="AnonymousVideos"/>
-          <include name="EnterUserName"/>
-          <include name="AnonymousAudios"/>
-          <include name="BulkAudios"/>
           <include name="Capabilities"/>
-          <include name="Videos"/>
-          <include name="CreateGroup"/>
-          <include name="AnonymousTextMessage"/>
+          <include name="ShutMode"/>
+          <include name="EnterUserName"/>
           <include name="OnBoardingScreenThree"/>
-          <include name="Images"/>
           <include name="startServer"/>
-          <include name="AnonymousImages"/>
         </methods>
-      </class> <!-- com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest -->
+      </class> <!-- com.shutapp.newui.loginflow.AppiumServer -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

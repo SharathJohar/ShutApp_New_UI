@@ -31,3 +31,133 @@
 2019-08-19 19:14:13 [main] INFO  AppiumServer:160 - Camera accessed
 2019-08-19 19:14:14 [main] INFO  AppiumServer:162 - Photos and media accessesd
 2019-08-19 19:14:16 [main] INFO  AppiumServer:167 - Image captured
+2019-08-26 15:33:27 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-26 15:33:50 [main] INFO  AppiumServer:75 - ShutApp Launched
+2019-08-26 15:33:55 [main] INFO  AppiumServer:80 - Page 1: Take Control over your data
+2019-08-26 15:33:58 [main] INFO  AppiumServer:82 - Page 2: Anonymous Messaging in Groups
+2019-08-26 15:34:03 [main] INFO  AppiumServer:84 - Page 3: Timed messages that disappear
+2019-08-26 15:34:29 [main] INFO  AppiumServer:105 - Country Selected
+2019-08-26 15:34:31 [main] INFO  AppiumServer:115 - OTP Sent
+2019-08-26 15:34:36 [main] INFO  AppiumServer:125 - OTP Page loaded
+2019-08-26 15:34:48 [main] INFO  AppiumServer:139 - Profile Page loaded
+2019-08-26 15:37:39 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-26 15:38:07 [main] INFO  AppiumServer:75 - ShutApp Launched
+2019-08-26 15:38:08 [main] INFO  AppiumServer:80 - Page 1: Take Control over your data
+2019-08-26 15:38:12 [main] INFO  AppiumServer:82 - Page 2: Anonymous Messaging in Groups
+2019-08-26 15:38:17 [main] INFO  AppiumServer:84 - Page 3: Timed messages that disappear
+2019-08-26 15:38:43 [main] INFO  AppiumServer:105 - Country Selected
+2019-08-26 15:38:45 [main] INFO  AppiumServer:115 - OTP Sent
+2019-08-26 15:38:50 [main] INFO  AppiumServer:125 - OTP Page loaded
+2019-08-26 15:38:57 [main] INFO  AppiumServer:139 - Profile Page loaded
+2019-08-26 15:38:57 [main] INFO  AppiumServer:145 - Fill Your Profile Page is Loaded
+2019-08-26 15:38:58 [main] INFO  AppiumServer:147 - Clicked on Avatar
+2019-08-26 15:38:59 [main] INFO  AppiumServer:149 - Camera selected
+2019-08-26 15:39:00 [main] INFO  AppiumServer:153 - Camera accessed
+2019-08-26 15:39:01 [main] INFO  AppiumServer:155 - Photos and media accessesd
+2019-08-26 15:39:04 [main] INFO  AppiumServer:160 - Image captured
+2019-08-26 15:39:07 [main] INFO  AppiumServer:163 - click on Done
+2019-08-26 15:39:18 [main] INFO  AppiumServer:167 - Image uploaded
+2019-08-26 15:39:20 [main] INFO  AppiumServer:175 - Gender selected
+2019-08-26 15:39:26 [main] INFO  AppiumServer:183 - Page 1: Hide your chats
+2019-08-26 15:39:28 [main] INFO  AppiumServer:185 - Page 2: Hidden Access
+2019-08-26 15:39:31 [main] INFO  AppiumServer:187 - Page 3: Unhide your chats
+2019-08-26 15:39:34 [main] INFO  AppiumServer:198 - Set Shutmode Lock
+2019-08-26 15:39:37 [main] INFO  AppiumServer:204 - Re-enter your pin
+2019-08-26 15:39:45 [main] INFO  AppiumServer:223 - Welcome
+2019-08-26 15:40:46 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-26 15:41:03 [main] INFO  AppiumServer:75 - ShutApp Launched
+2019-08-26 15:41:06 [main] INFO  AppiumServer:80 - Page 1: Take Control over your data
+2019-08-26 15:41:10 [main] INFO  AppiumServer:82 - Page 2: Anonymous Messaging in Groups
+2019-08-26 15:41:15 [main] INFO  AppiumServer:84 - Page 3: Timed messages that disappear
+2019-08-26 15:51:04 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-26 15:51:23 [main] INFO  AppiumServer:75 - ShutApp Launched
+2019-08-26 15:51:27 [main] INFO  AppiumServer:80 - Page 1: Take Control over your data
+2019-08-26 15:51:31 [main] INFO  AppiumServer:82 - Page 2: Anonymous Messaging in Groups
+2019-08-26 15:51:36 [main] INFO  AppiumServer:84 - Page 3: Timed messages that disappear
+2019-08-26 15:52:02 [main] INFO  AppiumServer:105 - Country Selected
+2019-08-26 15:52:04 [main] INFO  AppiumServer:115 - OTP Sent
+2019-08-26 15:52:05 [main] INFO  AppiumServer:124 - OTP Page loaded
+2019-08-26 15:52:12 [main] INFO  AppiumServer:140 - Profile Page loaded
+2019-08-26 15:52:12 [main] INFO  AppiumServer:146 - Fill Your Profile Page is Loaded
+2019-08-26 15:52:12 [main] INFO  AppiumServer:148 - Clicked on Avatar
+2019-08-26 15:52:13 [main] INFO  AppiumServer:150 - Camera selected
+2019-08-26 15:52:15 [main] INFO  AppiumServer:154 - Camera accessed
+2019-08-26 15:52:16 [main] INFO  AppiumServer:156 - Photos and media accessesd
+2019-08-26 15:55:10 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-26 15:55:28 [main] INFO  AppiumServer:75 - ShutApp Launched
+2019-08-26 15:55:33 [main] INFO  AppiumServer:80 - Page 1: Take Control over your data
+2019-08-26 15:55:38 [main] INFO  AppiumServer:82 - Page 2: Anonymous Messaging in Groups
+2019-08-26 15:55:42 [main] INFO  AppiumServer:84 - Page 3: Timed messages that disappear
+2019-08-26 15:56:17 [main] INFO  AppiumServer:105 - Country Selected
+2019-08-26 15:56:20 [main] INFO  AppiumServer:115 - OTP Sent
+2019-08-26 15:56:21 [main] INFO  AppiumServer:124 - OTP Page loaded
+2019-08-26 15:56:28 [main] INFO  AppiumServer:140 - Profile Page loaded
+2019-08-26 15:59:02 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-26 15:59:21 [main] INFO  AppiumServer:75 - ShutApp Launched
+2019-08-26 15:59:26 [main] INFO  AppiumServer:80 - Page 1: Take Control over your data
+2019-08-26 15:59:32 [main] INFO  AppiumServer:82 - Page 2: Anonymous Messaging in Groups
+2019-08-26 15:59:37 [main] INFO  AppiumServer:84 - Page 3: Timed messages that disappear
+2019-08-26 16:00:14 [main] INFO  AppiumServer:105 - Country Selected
+2019-08-26 16:00:16 [main] INFO  AppiumServer:115 - OTP Sent
+2019-08-26 16:00:19 [main] INFO  AppiumServer:124 - OTP Page loaded
+2019-08-26 16:00:30 [main] INFO  AppiumServer:140 - Profile Page loaded
+2019-08-26 16:00:31 [main] INFO  AppiumServer:146 - Fill Your Profile Page is Loaded
+2019-08-26 16:00:31 [main] INFO  AppiumServer:148 - Clicked on Avatar
+2019-08-26 16:00:33 [main] INFO  AppiumServer:150 - Camera selected
+2019-08-26 16:00:34 [main] INFO  AppiumServer:154 - Camera accessed
+2019-08-26 16:00:38 [main] INFO  AppiumServer:156 - Photos and media accessesd
+2019-08-26 16:00:40 [main] INFO  AppiumServer:161 - Image captured
+2019-08-26 16:00:45 [main] INFO  AppiumServer:164 - click on Done
+2019-08-26 16:02:34 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-26 16:03:10 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-26 16:03:52 [main] INFO  AppiumServer:75 - ShutApp Launched
+2019-08-26 16:03:59 [main] INFO  AppiumServer:80 - Page 1: Take Control over your data
+2019-08-26 16:04:00 [main] INFO  AppiumServer:82 - Page 2: Take Control over your data
+2019-08-26 16:04:07 [main] INFO  AppiumServer:84 - Page 3: Anonymous Messaging in Groups
+2019-08-26 16:04:48 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-26 16:05:07 [main] INFO  AppiumServer:75 - ShutApp Launched
+2019-08-26 16:05:13 [main] INFO  AppiumServer:80 - Page 1: Take Control over your data
+2019-08-26 16:05:16 [main] INFO  AppiumServer:82 - Page 2: Anonymous Messaging in Groups
+2019-08-26 16:05:24 [main] INFO  AppiumServer:84 - Page 3: Timed messages that disappear
+2019-08-26 16:05:54 [main] INFO  AppiumServer:105 - Country Selected
+2019-08-26 16:05:56 [main] INFO  AppiumServer:115 - OTP Sent
+2019-08-26 16:06:02 [main] INFO  AppiumServer:124 - OTP Page loaded
+2019-08-26 16:06:08 [main] INFO  AppiumServer:140 - Profile Page loaded
+2019-08-26 16:06:13 [main] INFO  AppiumServer:146 - Fill Your Profile Page is Loaded
+2019-08-26 16:07:41 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-26 16:08:19 [main] INFO  AppiumServer:75 - ShutApp Launched
+2019-08-26 16:08:35 [main] INFO  AppiumServer:80 - Page 1: Take Control over your data
+2019-08-26 16:08:42 [main] INFO  AppiumServer:82 - Page 2: Anonymous Messaging in Groups
+2019-08-26 16:08:48 [main] INFO  AppiumServer:84 - Page 3: Timed messages that disappear
+2019-08-26 16:09:21 [main] INFO  AppiumServer:105 - Country Selected
+2019-08-26 16:09:24 [main] INFO  AppiumServer:115 - OTP Sent
+2019-08-26 16:09:25 [main] INFO  AppiumServer:124 - OTP Page loaded
+2019-08-26 16:09:25 [main] INFO  AppiumServer:125 - Sending OTP to +914444666666
+2019-08-26 16:09:35 [main] INFO  AppiumServer:139 - Profile Page loaded
+2019-08-26 16:09:35 [main] INFO  AppiumServer:145 - Fill Your Profile Page is Loaded
+2019-08-26 16:09:35 [main] INFO  AppiumServer:147 - Clicked on Avatar
+2019-08-26 16:11:25 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-26 16:11:45 [main] INFO  AppiumServer:75 - ShutApp Launched
+2019-08-26 16:11:48 [main] INFO  AppiumServer:80 - Page 1: Take Control over your data
+2019-08-26 16:11:52 [main] INFO  AppiumServer:82 - Page 2: Anonymous Messaging in Groups
+2019-08-26 16:11:57 [main] INFO  AppiumServer:84 - Page 3: Timed messages that disappear
+2019-08-26 16:12:22 [main] INFO  AppiumServer:105 - Selecting Country Code
+2019-08-26 16:12:24 [main] INFO  AppiumServer:115 - OTP Sent
+2019-08-26 16:12:26 [main] INFO  AppiumServer:125 - OTP Page loaded
+2019-08-26 16:12:26 [main] INFO  AppiumServer:126 - Sending OTP to +914444666666
+2019-08-26 16:12:32 [main] INFO  AppiumServer:140 - Profile Page loaded
+2019-08-26 16:12:33 [main] INFO  AppiumServer:146 - Fill Your Profile Page is Loaded
+2019-08-26 16:12:33 [main] INFO  AppiumServer:148 - Clicked on Avatar
+2019-08-26 16:12:34 [main] INFO  AppiumServer:150 - Camera selected
+2019-08-26 16:12:35 [main] INFO  AppiumServer:154 - Camera accessed
+2019-08-26 16:12:36 [main] INFO  AppiumServer:156 - Photos and media accessesd
+2019-08-26 16:12:39 [main] INFO  AppiumServer:161 - Image captured
+2019-08-26 16:12:43 [main] INFO  AppiumServer:164 - click on Done
+2019-08-26 16:12:53 [main] INFO  AppiumServer:168 - Image uploaded
+2019-08-26 16:12:55 [main] INFO  AppiumServer:176 - Gender selected
+2019-08-26 16:13:03 [main] INFO  AppiumServer:184 - Page 1: Hide your chats
+2019-08-26 16:13:05 [main] INFO  AppiumServer:186 - Page 2: Hidden Access
+2019-08-26 16:13:08 [main] INFO  AppiumServer:188 - Page 3: Unhide your chats
+2019-08-26 16:13:10 [main] INFO  AppiumServer:199 - Set Shutmode Lock
+2019-08-26 16:13:13 [main] INFO  AppiumServer:205 - Re-enter your pin
+2019-08-26 16:13:20 [main] INFO  AppiumServer:224 - Welcome

@@ -102,7 +102,7 @@ public class AppiumServer {
 		try {
 			scrollIntoView.isDisplayed();
 			IndSelect.click();
-			Log.info("Country Selected");
+			Log.info("Selecting Country Code");
 		} catch (NoSuchElementException e) {
 			search.click();
 			search.sendKeys("India");
@@ -110,28 +110,22 @@ public class AppiumServer {
 			Log.warn("Zimbabwe");
 		}
 
-		driver.findElementById("in.dbst.shutappv1.dev:id/input").sendKeys("4444666666");
-		WebElement next = driver.findElementById("in.dbst.shutappv1.dev:id/action_next");
+		driver.findElementById("in.dbst.shutappv1.dev:id/input_number").sendKeys("4444666666");
+		driver.findElementById("in.dbst.shutappv1.dev:id/send_otp_btn").click();
+		Log.info("OTP Sent");
 
-		if (next.isEnabled()) {
-			Log.info("Next Button is Enabled");
-			next.click();
-		} else {
-			Log.info("Invalid Phone Number");
-			Log.info("Shutting Down App");
-			driver.quit();
-		}
 	}
 
 	@Test(priority = 3)
 	public void OTP() throws MalformedURLException, InterruptedException {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		try {
-			new WebDriverWait(driver, 60).until(ExpectedConditions
-					.invisibilityOfElementLocated(By.id("in.dbst.shutappv1.dev:id/tb_progress_view_profile")));
-			Log.info("OTP Page loaded");
-			driver.findElementById("in.dbst.shutappv1.dev:id/onboard_otp_fragment_input").sendKeys("123456");
-			driver.findElementById("in.dbst.shutappv1.dev:id/tb_dialpad_done").click();
+			new WebDriverWait(driver, 5).until(ExpectedConditions
+					.visibilityOfElementLocated(By.xpath("//android.widget.TextView[@text='OTP Verification']")));
+			Log.debug("OTP Page Launched");
+			Log.info(driver.findElementById("in.dbst.shutappv1.dev:id/otp_phone_number").getText());
+			driver.findElementById("in.dbst.shutappv1.dev:id/otp_edit_text").sendKeys("123456");
+			driver.findElementById("in.dbst.shutappv1.dev:id/send_otp_btn").click();
 		} catch (TimeoutException e) {
 			Log.fatal("Page not uploaded in 60 sec");
 		}
@@ -143,7 +137,7 @@ public class AppiumServer {
 		try {
 			new WebDriverWait(driver, 60).until(ExpectedConditions
 					.invisibilityOfElementLocated(By.id("in.dbst.shutappv1.dev:id/tb_progress_view_profile")));
-			Log.info("Profile Page loaded");
+			Log.debug("Profile Page loaded");
 		} catch (TimeoutException e) {
 			Log.fatal("Page not uploaded in 60 sec");
 		}
