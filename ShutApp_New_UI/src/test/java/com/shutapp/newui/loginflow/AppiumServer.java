@@ -72,7 +72,7 @@ public class AppiumServer {
 				"in.dbst.shutappv1.ui.components.launcher.ActivityLauncher");
 		driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		Log.info("Joynt App Launched");
+		Log.info("Joyntt App Launched");
 	}
 
 	@Test(priority = 1)
