@@ -52,10 +52,10 @@ public class CreatePrivateGroupTest extends AppiumServer {
 		driver.findElementByXPath("//android.widget.TextView[@text='Ajay ShutApp'] ").click();
 		driver.findElementByXPath("//android.widget.TextView[@text='Alok ShutApp'] ").click();
 		driver.findElementByXPath("//android.widget.TextView[@text='Amit ShutApp'] ").click();
-		driver.findElementByXPath("//android.widget.TextView[@text='Ravi'] ").click();
-		driver.findElementByAndroidUIAutomator(
-				"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Vivek Shutapp\").instance(0))");
+		driver.findElementByXPath("//android.widget.TextView[@text='Neeraj ShutApp'] ").click();
 		driver.findElementByXPath("//android.widget.TextView[@text='Ravi ShutApp'] ").click();
+		driver.findElementByAndroidUIAutomator(
+				"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Vivek Shutapp\").instance(0))");	
 		driver.findElementByXPath("//android.widget.TextView[@text='Sagar ShutApp'] ").click();
 		driver.findElementByXPath("//android.widget.TextView[@text='Sindhu'] ").click();
 		driver.findElementByXPath("//android.widget.TextView[@text='ShutApp 4'] ").click();
@@ -63,7 +63,7 @@ public class CreatePrivateGroupTest extends AppiumServer {
 		driver.findElementByXPath("//android.widget.TextView[@text='Vivek ShutApp'] ").click();
 		Log.info("Memebers addedd successfully");
 		driver.findElementById("in.dbst.shutappv1.dev:id/create_group_next").click();
-		driver.findElementById("in.dbst.shutappv1.dev:id/input").sendKeys("Jenkins Shedule!");
+		driver.findElementById("in.dbst.shutappv1.dev:id/input_number").sendKeys("Notify!");
 		driver.findElementById("in.dbst.shutappv1.dev:id/group_name_next").click();
 		driver.findElementById("in.dbst.shutappv1.dev:id/add_image").click();
 ////	driver.findElementById("in.dbst.shutappv1.dev:id/chat_attachment_dialog_btn_camera").click();
@@ -115,7 +115,7 @@ public class CreatePrivateGroupTest extends AppiumServer {
 
 		WebElement Text = driver.findElementById("in.dbst.shutappv1.dev:id/chat_message_text_box_input");
 		WebElement Send = driver.findElementById("in.dbst.shutappv1.dev:id/chat_message_send_fab");
-		for (int i = 0; i < 20; i++) {
+		for (int i = 0; i < 50; i++) {
 			Text.sendKeys(
 					"You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose. You're on your own. And you know what you know. And YOU are the one who'll decide where to go...");
 			Send.click();
