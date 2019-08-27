@@ -161,3 +161,161 @@
 2019-08-26 16:13:10 [main] INFO  AppiumServer:199 - Set Shutmode Lock
 2019-08-26 16:13:13 [main] INFO  AppiumServer:205 - Re-enter your pin
 2019-08-26 16:13:20 [main] INFO  AppiumServer:224 - Welcome
+2019-08-26 16:45:30 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-26 16:45:54 [main] INFO  AppiumServer:75 - Joynt App Launched
+2019-08-26 16:45:57 [main] INFO  AppiumServer:80 - Page 1: Take Control over your data
+2019-08-26 16:46:01 [main] INFO  AppiumServer:82 - Page 2: Anonymous Messaging in Groups
+2019-08-26 16:46:06 [main] INFO  AppiumServer:84 - Page 3: Timed messages that disappear
+2019-08-26 16:47:12 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-26 16:47:38 [main] INFO  AppiumServer:75 - Joynt App Launched
+2019-08-26 16:47:39 [main] INFO  AppiumServer:80 - Page 1: Take Control over your data
+2019-08-26 16:47:43 [main] INFO  AppiumServer:82 - Page 2: Anonymous Messaging in Groups
+2019-08-26 16:47:45 [main] INFO  AppiumServer:84 - Page 3: Timed messages that disappear
+2019-08-26 16:48:14 [main] INFO  AppiumServer:105 - Selecting Country Code
+2019-08-26 16:48:16 [main] INFO  AppiumServer:115 - OTP Sent
+2019-08-26 16:48:17 [main] INFO  AppiumServer:126 - Sending OTP to +914444666666
+2019-08-26 16:48:24 [main] INFO  AppiumServer:146 - Fill Your Profile Page is Loaded
+2019-08-26 16:48:24 [main] INFO  AppiumServer:148 - Clicked on Avatar
+2019-08-26 16:48:25 [main] INFO  AppiumServer:150 - Camera selected
+2019-08-26 16:48:27 [main] INFO  AppiumServer:154 - Camera accessed
+2019-08-26 16:48:28 [main] INFO  AppiumServer:156 - Photos and media accessesd
+2019-08-26 16:48:30 [main] INFO  AppiumServer:161 - Image captured
+2019-08-26 16:48:35 [main] INFO  AppiumServer:164 - click on Done
+2019-08-26 16:48:47 [main] INFO  AppiumServer:168 - Image uploaded
+2019-08-26 16:48:49 [main] INFO  AppiumServer:176 - Gender selected
+2019-08-26 16:48:55 [main] INFO  AppiumServer:184 - Page 1: Hide your chats
+2019-08-26 16:48:57 [main] INFO  AppiumServer:186 - Page 2: Hidden Access
+2019-08-26 16:49:00 [main] INFO  AppiumServer:188 - Page 3: Unhide your chats
+2019-08-26 16:49:02 [main] INFO  AppiumServer:199 - Set Shutmode Lock
+2019-08-26 16:49:05 [main] INFO  AppiumServer:205 - Re-enter your pin
+2019-08-26 16:49:12 [main] INFO  AppiumServer:224 - Welcome
+2019-08-26 16:49:22 [main] INFO  CreatePrivateGroupTest:43 - Contatcs Not Updated
+2019-08-26 16:53:16 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-26 16:53:35 [main] INFO  AppiumServer:75 - Joynt App Launched
+2019-08-26 16:53:39 [main] INFO  AppiumServer:80 - Page 1: Take Control over your data
+2019-08-26 16:53:42 [main] INFO  AppiumServer:82 - Page 2: Anonymous Messaging in Groups
+2019-08-26 16:53:46 [main] INFO  AppiumServer:84 - Page 3: Timed messages that disappear
+2019-08-26 16:54:14 [main] INFO  AppiumServer:105 - Selecting Country Code
+2019-08-26 16:54:16 [main] INFO  AppiumServer:115 - OTP Sent
+2019-08-26 16:54:16 [main] INFO  AppiumServer:126 - Sending OTP to +914444666666
+2019-08-26 16:54:23 [main] INFO  AppiumServer:146 - Fill Your Profile Page is Loaded
+2019-08-26 16:54:23 [main] INFO  AppiumServer:148 - Clicked on Avatar
+2019-08-26 16:54:24 [main] INFO  AppiumServer:150 - Camera selected
+2019-08-26 16:54:26 [main] INFO  AppiumServer:154 - Camera accessed
+2019-08-26 16:54:27 [main] INFO  AppiumServer:156 - Photos and media accessesd
+2019-08-26 16:54:31 [main] INFO  AppiumServer:161 - Image captured
+2019-08-26 16:54:33 [main] INFO  AppiumServer:164 - click on Done
+2019-08-26 16:54:43 [main] INFO  AppiumServer:168 - Image uploaded
+2019-08-26 16:54:45 [main] INFO  AppiumServer:176 - Gender selected
+2019-08-26 16:54:52 [main] INFO  AppiumServer:184 - Page 1: Hide your chats
+2019-08-26 16:54:54 [main] INFO  AppiumServer:186 - Page 2: Hidden Access
+2019-08-26 16:54:56 [main] INFO  AppiumServer:188 - Page 3: Unhide your chats
+2019-08-26 16:54:59 [main] INFO  AppiumServer:199 - Set Shutmode Lock
+2019-08-26 16:55:02 [main] INFO  AppiumServer:205 - Re-enter your pin
+2019-08-26 16:55:09 [main] INFO  AppiumServer:224 - Welcome
+2019-08-26 16:55:18 [main] INFO  CreatePrivateGroupTest:43 - Contatcs Not Updated
+2019-08-26 16:55:40 [main] INFO  CreatePrivateGroupTest:64 - Memebers addedd successfully
+2019-08-26 16:58:04 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-26 16:58:28 [main] INFO  AppiumServer:75 - Joynt App Launched
+2019-08-26 16:58:32 [main] INFO  AppiumServer:80 - Page 1: Take Control over your data
+2019-08-26 16:58:35 [main] INFO  AppiumServer:82 - Page 2: Anonymous Messaging in Groups
+2019-08-26 16:58:40 [main] INFO  AppiumServer:84 - Page 3: Timed messages that disappear
+2019-08-26 16:59:06 [main] INFO  AppiumServer:105 - Selecting Country Code
+2019-08-26 16:59:08 [main] INFO  AppiumServer:115 - OTP Sent
+2019-08-26 16:59:09 [main] INFO  AppiumServer:126 - Sending OTP to +914444666666
+2019-08-26 16:59:16 [main] INFO  AppiumServer:146 - Fill Your Profile Page is Loaded
+2019-08-26 16:59:17 [main] INFO  AppiumServer:148 - Clicked on Avatar
+2019-08-26 16:59:18 [main] INFO  AppiumServer:150 - Camera selected
+2019-08-26 16:59:20 [main] INFO  AppiumServer:154 - Camera accessed
+2019-08-26 16:59:21 [main] INFO  AppiumServer:156 - Photos and media accessesd
+2019-08-26 16:59:23 [main] INFO  AppiumServer:161 - Image captured
+2019-08-26 16:59:27 [main] INFO  AppiumServer:164 - click on Done
+2019-08-26 16:59:33 [main] INFO  AppiumServer:168 - Image uploaded
+2019-08-26 16:59:35 [main] INFO  AppiumServer:176 - Gender selected
+2019-08-26 16:59:41 [main] INFO  AppiumServer:184 - Page 1: Hide your chats
+2019-08-26 16:59:43 [main] INFO  AppiumServer:186 - Page 2: Hidden Access
+2019-08-26 16:59:46 [main] INFO  AppiumServer:188 - Page 3: Unhide your chats
+2019-08-26 16:59:48 [main] INFO  AppiumServer:199 - Set Shutmode Lock
+2019-08-26 16:59:51 [main] INFO  AppiumServer:205 - Re-enter your pin
+2019-08-26 16:59:58 [main] INFO  AppiumServer:224 - Welcome
+2019-08-26 17:00:07 [main] INFO  CreatePrivateGroupTest:43 - Contatcs Not Updated
+2019-08-26 17:00:31 [main] INFO  CreatePrivateGroupTest:64 - Memebers addedd successfully
+2019-08-26 17:00:37 [main] INFO  CreatePrivateGroupTest:76 - Gallery selected
+2019-08-26 17:00:39 [main] INFO  CreatePrivateGroupTest:78 - Image uploading
+2019-08-26 17:00:46 [main] INFO  CreatePrivateGroupTest:81 - Group successfully created
+2019-08-26 17:02:24 [main] INFO  CreatePrivateGroupTest:105 - AutoDelete Working as Expected
+2019-08-26 17:04:11 [main] INFO  CreatePrivateGroupTest:124 - Text Messages sent Successfully
+2019-08-26 17:04:57 [main] INFO  CreatePrivateGroupTest:139 - Anonymous Text Messages sent Successfully
+2019-08-26 17:05:27 [main] INFO  CreatePrivateGroupTest:168 - Bulk Images sent Successfully
+2019-08-26 17:05:59 [main] INFO  CreatePrivateGroupTest:202 - Anonymous Images sent Successfully
+2019-08-26 17:06:29 [main] INFO  CreatePrivateGroupTest:231 - Bulk Videos sent Successfully
+2019-08-26 17:07:03 [main] INFO  CreatePrivateGroupTest:261 - Anonymous Bulk Videos sent Successfully
+2019-08-26 17:07:40 [main] INFO  CreatePrivateGroupTest:285 - Bulk Audios sent Successfully
+2019-08-26 17:08:23 [main] INFO  CreatePrivateGroupTest:311 - Anonymous Bulk Audios sent Successfully
+2019-08-27 10:55:26 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-27 10:56:04 [main] INFO  AppiumServer:75 - Joynt App Launched
+2019-08-27 10:56:52 [main] FATAL AppiumServer:130 - Page not uploaded in 60 sec
+2019-08-27 10:59:00 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-27 10:59:22 [main] INFO  AppiumServer:75 - Joynt App Launched
+2019-08-27 10:59:26 [main] INFO  AppiumServer:80 - Page 1: Take Control over your data
+2019-08-27 10:59:29 [main] INFO  AppiumServer:82 - Page 2: Anonymous Messaging in Groups
+2019-08-27 10:59:34 [main] INFO  AppiumServer:84 - Page 3: Timed messages that disappear
+2019-08-27 11:00:02 [main] INFO  AppiumServer:105 - Selecting Country Code
+2019-08-27 11:00:04 [main] INFO  AppiumServer:115 - OTP Sent
+2019-08-27 11:00:05 [main] INFO  AppiumServer:126 - Sending OTP to +914444666666
+2019-08-27 11:00:11 [main] INFO  AppiumServer:146 - Fill Your Profile Page is Loaded
+2019-08-27 11:00:11 [main] INFO  AppiumServer:148 - Clicked on Avatar
+2019-08-27 11:01:33 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-27 11:01:54 [main] INFO  AppiumServer:75 - Joynt App Launched
+2019-08-27 11:01:57 [main] INFO  AppiumServer:80 - Page 1: Take Control over your data
+2019-08-27 11:02:01 [main] INFO  AppiumServer:82 - Page 2: Anonymous Messaging in Groups
+2019-08-27 11:02:06 [main] INFO  AppiumServer:84 - Page 3: Timed messages that disappear
+2019-08-27 11:02:33 [main] INFO  AppiumServer:105 - Selecting Country Code
+2019-08-27 11:02:34 [main] INFO  AppiumServer:115 - OTP Sent
+2019-08-27 11:02:36 [main] INFO  AppiumServer:126 - Sending OTP to +914444666666
+2019-08-27 11:02:42 [main] INFO  AppiumServer:146 - Fill Your Profile Page is Loaded
+2019-08-27 11:02:42 [main] INFO  AppiumServer:148 - Clicked on Avatar
+2019-08-27 11:02:43 [main] INFO  AppiumServer:150 - Camera selected
+2019-08-27 11:02:46 [main] INFO  AppiumServer:154 - Camera accessed
+2019-08-27 11:02:47 [main] INFO  AppiumServer:156 - Photos and media accessesd
+2019-08-27 11:02:49 [main] INFO  AppiumServer:161 - Image captured
+2019-08-27 11:02:54 [main] INFO  AppiumServer:164 - click on Done
+2019-08-27 11:03:05 [main] INFO  AppiumServer:168 - Image uploaded
+2019-08-27 11:03:07 [main] INFO  AppiumServer:176 - Gender selected
+2019-08-27 11:05:31 [main] INFO  AppiumServer:43 - Appium server started successfully
+2019-08-27 11:06:01 [main] INFO  AppiumServer:75 - Joynt App Launched
+2019-08-27 11:06:02 [main] INFO  AppiumServer:80 - Page 1: Take Control over your data
+2019-08-27 11:06:05 [main] INFO  AppiumServer:82 - Page 2: Anonymous Messaging in Groups
+2019-08-27 11:06:05 [main] INFO  AppiumServer:84 - Page 3: Timed messages that disappear
+2019-08-27 11:06:36 [main] INFO  AppiumServer:105 - Selecting Country Code
+2019-08-27 11:06:38 [main] INFO  AppiumServer:115 - OTP Sent
+2019-08-27 11:06:39 [main] INFO  AppiumServer:126 - Sending OTP to +914444666666
+2019-08-27 11:06:46 [main] INFO  AppiumServer:146 - Fill Your Profile Page is Loaded
+2019-08-27 11:06:46 [main] INFO  AppiumServer:148 - Clicked on Avatar
+2019-08-27 11:06:47 [main] INFO  AppiumServer:150 - Camera selected
+2019-08-27 11:06:48 [main] INFO  AppiumServer:154 - Camera accessed
+2019-08-27 11:06:49 [main] INFO  AppiumServer:156 - Photos and media accessesd
+2019-08-27 11:06:51 [main] INFO  AppiumServer:161 - Image captured
+2019-08-27 11:06:56 [main] INFO  AppiumServer:164 - click on Done
+2019-08-27 11:07:07 [main] INFO  AppiumServer:168 - Image uploaded
+2019-08-27 11:07:09 [main] INFO  AppiumServer:176 - Gender selected
+2019-08-27 11:07:15 [main] INFO  AppiumServer:184 - Page 1: Hide your chats
+2019-08-27 11:07:17 [main] INFO  AppiumServer:186 - Page 2: Hidden Access
+2019-08-27 11:07:19 [main] INFO  AppiumServer:188 - Page 3: Unhide your chats
+2019-08-27 11:07:21 [main] INFO  AppiumServer:199 - Set Shutmode Lock
+2019-08-27 11:07:25 [main] INFO  AppiumServer:205 - Re-enter your pin
+2019-08-27 11:07:33 [main] INFO  AppiumServer:224 - Welcome
+2019-08-27 11:07:43 [main] INFO  CreatePrivateGroupTest:43 - Contatcs Not Updated
+2019-08-27 11:08:06 [main] INFO  CreatePrivateGroupTest:64 - Memebers addedd successfully
+2019-08-27 11:08:13 [main] INFO  CreatePrivateGroupTest:76 - Gallery selected
+2019-08-27 11:08:14 [main] INFO  CreatePrivateGroupTest:78 - Image uploading
+2019-08-27 11:08:21 [main] INFO  CreatePrivateGroupTest:81 - Group successfully created
+2019-08-27 11:09:53 [main] INFO  CreatePrivateGroupTest:105 - AutoDelete Working as Expected
+2019-08-27 11:11:41 [main] INFO  CreatePrivateGroupTest:124 - Text Messages sent Successfully
+2019-08-27 11:12:25 [main] INFO  CreatePrivateGroupTest:139 - Anonymous Text Messages sent Successfully
+2019-08-27 11:12:55 [main] INFO  CreatePrivateGroupTest:168 - Bulk Images sent Successfully
+2019-08-27 11:13:29 [main] INFO  CreatePrivateGroupTest:202 - Anonymous Images sent Successfully
+2019-08-27 11:13:59 [main] INFO  CreatePrivateGroupTest:231 - Bulk Videos sent Successfully
+2019-08-27 11:14:33 [main] INFO  CreatePrivateGroupTest:261 - Anonymous Bulk Videos sent Successfully
+2019-08-27 11:15:09 [main] INFO  CreatePrivateGroupTest:285 - Bulk Audios sent Successfully
+2019-08-27 11:15:50 [main] INFO  CreatePrivateGroupTest:311 - Anonymous Bulk Audios sent Successfully

@@ -1,45 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-08-26T10:41:25Z" name="Default suite" finished-at="2019-08-26T10:43:20Z" duration-ms="115758">
+  <suite started-at="2019-08-27T05:35:31Z" name="Default suite" finished-at="2019-08-27T05:45:50Z" duration-ms="618927">
     <groups>
     </groups>
-    <test started-at="2019-08-26T10:41:25Z" name="Default test" finished-at="2019-08-26T10:43:20Z" duration-ms="115758">
-      <class name="com.shutapp.newui.loginflow.AppiumServer">
-        <test-method is-config="true" signature="startServer()[pri:0, instance:com.shutapp.newui.loginflow.AppiumServer@64c63c79]" started-at="2019-08-26T10:41:15Z" name="startServer" finished-at="2019-08-26T10:41:25Z" duration-ms="10075" status="PASS">
+    <test started-at="2019-08-27T05:35:31Z" name="Default test" finished-at="2019-08-27T05:45:50Z" duration-ms="618927">
+      <class name="com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest">
+        <test-method is-config="true" signature="startServer()[pri:0, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:35:21Z" name="startServer" finished-at="2019-08-27T05:35:31Z" duration-ms="10077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startServer -->
-        <test-method is-config="true" signature="Capabilities()[pri:0, instance:com.shutapp.newui.loginflow.AppiumServer@64c63c79]" started-at="2019-08-26T10:41:25Z" name="Capabilities" finished-at="2019-08-26T10:41:45Z" duration-ms="20139" status="PASS">
+        <test-method is-config="true" signature="Capabilities()[pri:0, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:35:31Z" name="Capabilities" finished-at="2019-08-27T05:36:01Z" duration-ms="29472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Capabilities -->
-        <test-method signature="OnBoardingScreenOne()[pri:1, instance:com.shutapp.newui.loginflow.AppiumServer@64c63c79]" started-at="2019-08-26T10:41:45Z" name="OnBoardingScreenOne" finished-at="2019-08-26T10:41:57Z" duration-ms="12161" status="PASS">
+        <test-method signature="OnBoardingScreenOne()[pri:1, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:36:01Z" name="OnBoardingScreenOne" finished-at="2019-08-27T05:36:10Z" duration-ms="8704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OnBoardingScreenOne -->
-        <test-method signature="MobileNumber()[pri:2, instance:com.shutapp.newui.loginflow.AppiumServer@64c63c79]" started-at="2019-08-26T10:41:57Z" name="MobileNumber" finished-at="2019-08-26T10:42:24Z" duration-ms="27291" status="PASS">
+        <test-method signature="MobileNumber()[pri:2, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:36:10Z" name="MobileNumber" finished-at="2019-08-27T05:36:38Z" duration-ms="27949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileNumber -->
-        <test-method signature="OTP()[pri:3, instance:com.shutapp.newui.loginflow.AppiumServer@64c63c79]" started-at="2019-08-26T10:42:24Z" name="OTP" finished-at="2019-08-26T10:42:27Z" duration-ms="2812" status="PASS">
+        <test-method signature="OTP()[pri:3, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:36:38Z" name="OTP" finished-at="2019-08-27T05:36:40Z" duration-ms="1953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OTP -->
-        <test-method signature="EnterUserName()[pri:4, instance:com.shutapp.newui.loginflow.AppiumServer@64c63c79]" started-at="2019-08-26T10:42:27Z" name="EnterUserName" finished-at="2019-08-26T10:42:57Z" duration-ms="30155" status="PASS">
+        <test-method signature="EnterUserName()[pri:4, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:36:40Z" name="EnterUserName" finished-at="2019-08-27T05:37:11Z" duration-ms="30980" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterUserName -->
-        <test-method signature="OnBoardingScreenThree()[pri:5, instance:com.shutapp.newui.loginflow.AppiumServer@64c63c79]" started-at="2019-08-26T10:42:57Z" name="OnBoardingScreenThree" finished-at="2019-08-26T10:43:08Z" duration-ms="10460" status="PASS">
+        <test-method signature="OnBoardingScreenThree()[pri:5, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:37:11Z" name="OnBoardingScreenThree" finished-at="2019-08-27T05:37:19Z" duration-ms="8276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OnBoardingScreenThree -->
-        <test-method signature="ShutMode()[pri:6, instance:com.shutapp.newui.loginflow.AppiumServer@64c63c79]" started-at="2019-08-26T10:43:08Z" name="ShutMode" finished-at="2019-08-26T10:43:20Z" duration-ms="12708" status="PASS">
+        <test-method signature="ShutMode()[pri:6, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:37:19Z" name="ShutMode" finished-at="2019-08-27T05:37:33Z" duration-ms="14379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShutMode -->
-      </class> <!-- com.shutapp.newui.loginflow.AppiumServer -->
+        <test-method signature="CreateGroup()[pri:7, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:37:33Z" name="CreateGroup" finished-at="2019-08-27T05:38:21Z" duration-ms="47874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateGroup -->
+        <test-method signature="TTL()[pri:8, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:38:21Z" name="TTL" finished-at="2019-08-27T05:39:55Z" duration-ms="93942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TTL -->
+        <test-method signature="TextMessage()[pri:9, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:39:55Z" name="TextMessage" finished-at="2019-08-27T05:41:41Z" duration-ms="105760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextMessage -->
+        <test-method signature="AnonymousTextMessage()[pri:10, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:41:41Z" name="AnonymousTextMessage" finished-at="2019-08-27T05:42:25Z" duration-ms="44673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AnonymousTextMessage -->
+        <test-method signature="Images()[pri:11, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:42:25Z" name="Images" finished-at="2019-08-27T05:42:57Z" duration-ms="31250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Images -->
+        <test-method signature="AnonymousImages()[pri:12, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:42:57Z" name="AnonymousImages" finished-at="2019-08-27T05:43:29Z" duration-ms="32020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AnonymousImages -->
+        <test-method signature="Videos()[pri:13, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:43:29Z" name="Videos" finished-at="2019-08-27T05:43:59Z" duration-ms="30012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Videos -->
+        <test-method signature="AnonymousVideos()[pri:14, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:43:59Z" name="AnonymousVideos" finished-at="2019-08-27T05:44:33Z" duration-ms="33743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AnonymousVideos -->
+        <test-method signature="BulkAudios()[pri:15, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:44:33Z" name="BulkAudios" finished-at="2019-08-27T05:45:09Z" duration-ms="36463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BulkAudios -->
+        <test-method signature="AnonymousAudios()[pri:16, instance:com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest@3ad2e17]" started-at="2019-08-27T05:45:09Z" name="AnonymousAudios" finished-at="2019-08-27T05:45:50Z" duration-ms="41430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AnonymousAudios -->
+      </class> <!-- com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
