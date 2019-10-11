@@ -1,15 +1,22 @@
 package com.shutapp.newui.loginflow;
 
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.PerformsTouchActions;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.AutomationName;
 import io.appium.java_client.remote.MobileCapabilityType;
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.PointOption;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -20,6 +27,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Duration;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
@@ -30,6 +38,7 @@ public class AppiumServer {
 
 	public AndroidDriver<AndroidElement> driver;
 	static Logger Log = LogManager.getLogger(AppiumServer.class);
+	public WebElement el;
 
 	// This method will start Appium server through command prompt
 	@BeforeSuite
@@ -75,7 +84,35 @@ public class AppiumServer {
 		Log.info("Joyntt App Launched");
 	}
 
+	public static void SwipeScreen(WebElement el, WebDriver driver) throws InterruptedException {
+
+		el = driver.findElement(By.id("in.dbst.shutappv1.dev:id/onboard_view_pager"));
+		WebElement Panel = el;
+		Dimension dimension = Panel.getSize();
+
+		int Anchor = Panel.getSize().getHeight() / 2;
+
+		Double ScreenWidthStart = dimension.getWidth() * 0.9;
+		int scrollStart = ScreenWidthStart.intValue();
+
+		Double ScreenWidthEnd = dimension.getWidth() * 0.2;
+		int scrollEnd = ScreenWidthEnd.intValue();
+
+		new TouchAction((PerformsTouchActions) driver).press(PointOption.point(scrollStart, Anchor))
+				.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1))).moveTo(PointOption.point(scrollEnd, Anchor))
+				.release().perform();
+		Thread.sleep(3000);
+	}
+
 	@Test(priority = 1)
+	public void OnBoardingScreen() throws MalformedURLException, InterruptedException {
+		for (int i = 0; i < 3; i++) {
+			SwipeScreen(el, driver);
+		}
+
+	}
+
+	// @Test(priority = 1)
 	public void OnBoardingScreenOne() throws MalformedURLException, InterruptedException {
 		Log.info("Page 1: " + driver.findElementById("in.dbst.shutappv1.dev:id/header").getText());
 		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();

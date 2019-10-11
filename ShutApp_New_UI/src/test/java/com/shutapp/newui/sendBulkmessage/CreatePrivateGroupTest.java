@@ -59,11 +59,11 @@ public class CreatePrivateGroupTest extends AppiumServer {
 		driver.findElementByXPath("//android.widget.TextView[@text='Sagar ShutApp'] ").click();
 		driver.findElementByXPath("//android.widget.TextView[@text='Sindhu'] ").click();
 		driver.findElementByXPath("//android.widget.TextView[@text='ShutApp 4'] ").click();
-		driver.findElementByXPath("//android.widget.TextView[@text='Vijay Goel'] ").click();
+		driver.findElementByXPath("//android.widget.TextView[@text='Sspv'] ").click();
 		driver.findElementByXPath("//android.widget.TextView[@text='Vivek ShutApp'] ").click();
 		Log.info("Memebers addedd successfully");
 		driver.findElementById("in.dbst.shutappv1.dev:id/create_group_next").click();
-		driver.findElementById("in.dbst.shutappv1.dev:id/input_number").sendKeys("Notify!");
+		driver.findElementById("in.dbst.shutappv1.dev:id/input_number").sendKeys("Upload Down! 1");
 		driver.findElementById("in.dbst.shutappv1.dev:id/group_name_next").click();
 		driver.findElementById("in.dbst.shutappv1.dev:id/add_image").click();
 ////	driver.findElementById("in.dbst.shutappv1.dev:id/chat_attachment_dialog_btn_camera").click();
@@ -81,7 +81,7 @@ public class CreatePrivateGroupTest extends AppiumServer {
 		Log.info("Group successfully created");
 	}
 
-	@Test(priority = 8)
+	//@Test(priority = 8)
 	// This method will send TTL messages and verify Auto delete
 	public void TTL() throws MalformedURLException, InterruptedException {
 
@@ -109,7 +109,7 @@ public class CreatePrivateGroupTest extends AppiumServer {
 		driver.findElementById("in.dbst.shutappv1.dev:id/btn_ok").click();
 	}
 
-	@Test(priority = 9)
+	//@Test(priority = 9)
 	// This method will send text messages in Bulk
 	public void TextMessage() throws MalformedURLException, InterruptedException {
 
@@ -124,7 +124,7 @@ public class CreatePrivateGroupTest extends AppiumServer {
 		Log.info("Text Messages sent Successfully");
 	}
 
-	@Test(priority = 10)
+	//@Test(priority = 10)
 	// This method will send Anonymous text messages in Bulk
 	public void AnonymousTextMessage() throws MalformedURLException, InterruptedException {
 
@@ -143,7 +143,7 @@ public class CreatePrivateGroupTest extends AppiumServer {
 	// This method will send Images in Bulk
 	public void Images() throws MalformedURLException, InterruptedException {
 
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 1; i++) {
 			driver.findElementById("in.dbst.shutappv1.dev:id/chat_message_box_action_attachments").click();
 			driver.findElementById("in.dbst.shutappv1.dev:id/chat_attachment_dialog_btn_gallery").click();
 			List<AndroidElement> list = driver.findElements(By.id("in.dbst.shutappv1.dev:id/imageView"));
@@ -176,7 +176,7 @@ public class CreatePrivateGroupTest extends AppiumServer {
 	public void AnonymousImages() throws MalformedURLException, InterruptedException {
 
 		driver.findElementById("in.dbst.shutappv1.dev:id/chat_message_box_anonymous_image_checkable").click();
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 1; i++) {
 			driver.findElementById("in.dbst.shutappv1.dev:id/chat_message_box_action_attachments").click();
 			driver.findElementById("in.dbst.shutappv1.dev:id/chat_attachment_dialog_btn_gallery").click();
 			List<AndroidElement> list = driver.findElements(By.id("in.dbst.shutappv1.dev:id/imageView"));
@@ -206,7 +206,7 @@ public class CreatePrivateGroupTest extends AppiumServer {
 	// This method will send Videos in Bulk
 	public void Videos() throws MalformedURLException, InterruptedException {
 
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 1; i++) {
 			driver.findElementById("in.dbst.shutappv1.dev:id/chat_message_box_action_attachments").click();
 			driver.findElementById("in.dbst.shutappv1.dev:id/chat_attachment_dialog_btn_video").click();
 			List<AndroidElement> list = driver.findElements(By.id("in.dbst.shutappv1.dev:id/imageView"));
@@ -235,7 +235,7 @@ public class CreatePrivateGroupTest extends AppiumServer {
 	// This method will send Anonymous Videos in Bulk
 	public void AnonymousVideos() throws MalformedURLException, InterruptedException {
 		driver.findElementById("in.dbst.shutappv1.dev:id/chat_message_box_anonymous_image_checkable").click();
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 1; i++) {
 			driver.findElementById("in.dbst.shutappv1.dev:id/chat_message_box_action_attachments").click();
 			driver.findElementById("in.dbst.shutappv1.dev:id/chat_attachment_dialog_btn_video").click();
 			List<AndroidElement> list = driver.findElements(By.id("in.dbst.shutappv1.dev:id/imageView"));
@@ -265,7 +265,7 @@ public class CreatePrivateGroupTest extends AppiumServer {
 	// This method will send Audio Files in Bulk
 	public void BulkAudios() throws MalformedURLException, InterruptedException {
 
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 1; i++) {
 			driver.findElementById("in.dbst.shutappv1.dev:id/chat_message_box_action_attachments").click();
 			driver.findElementById("in.dbst.shutappv1.dev:id/chat_attachment_dialog_btn_audio").click();
 			driver.findElementByAndroidUIAutomator(
@@ -290,7 +290,7 @@ public class CreatePrivateGroupTest extends AppiumServer {
 	public void AnonymousAudios() throws MalformedURLException, InterruptedException {
 
 		driver.findElementById("in.dbst.shutappv1.dev:id/chat_message_box_anonymous_image_checkable").click();
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 1; i++) {
 			driver.findElementById("in.dbst.shutappv1.dev:id/chat_message_box_action_attachments").click();
 			driver.findElementById("in.dbst.shutappv1.dev:id/chat_attachment_dialog_btn_audio").click();
 			driver.findElementByAndroidUIAutomator(
