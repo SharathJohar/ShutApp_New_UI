@@ -24,6 +24,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import files.resources;
+
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -85,30 +88,10 @@ public class AppiumServer {
 		Log.info("Joynt App Launched");
 	}
 
-	public static void SwipeScreen(WebElement el, WebDriver driver) throws InterruptedException {
-
-		el = driver.findElement(By.id("in.dbst.shutappv1.dev:id/onboard_view_pager"));
-		WebElement Panel = el;
-		Dimension dimension = Panel.getSize();
-
-		int Anchor = Panel.getSize().getHeight() / 2;
-
-		Double ScreenWidthStart = dimension.getWidth() * 0.9;
-		int scrollStart = ScreenWidthStart.intValue();
-
-		Double ScreenWidthEnd = dimension.getWidth() * 0.2;
-		int scrollEnd = ScreenWidthEnd.intValue();
-
-		new TouchAction((PerformsTouchActions) driver).press(PointOption.point(scrollStart, Anchor))
-				.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1))).moveTo(PointOption.point(scrollEnd, Anchor))
-				.release().perform();
-		Thread.sleep(3000);
-	}
-
 	@Test(priority = 1)
 	public void OnBoardingScreen() throws MalformedURLException, InterruptedException {
 		for (int i = 0; i < 3; i++) {
-			SwipeScreen(el, driver);
+			resources.SwipeScreen(el, driver);
 
 		}
 		driver.findElementById("in.dbst.shutappv1.dev:id/sign_up").click();

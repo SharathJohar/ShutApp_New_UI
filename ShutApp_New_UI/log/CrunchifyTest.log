@@ -721,3 +721,33 @@
 2019-10-17 14:39:32 [main] INFO  AppiumServer:213 - Welcome
 2019-10-17 14:39:38 [main] INFO  CreatePrivateGroupTest:39 - Tost Message is : Download starting
 2019-10-17 14:39:38 [main] INFO  CreatePrivateGroupTest:40 - Contatcs Updated
+2019-10-17 14:48:15 [main] INFO  AppiumServer:53 - Appium server started successfully
+2019-10-17 14:48:32 [main] INFO  AppiumServer:85 - Joynt App Launched
+2019-10-17 14:48:50 [main] INFO  AppiumServer:115 - Signing up!
+2019-10-17 14:49:15 [main] INFO  AppiumServer:135 - Selecting Country Code
+2019-10-17 14:49:17 [main] INFO  AppiumServer:145 - Phone Number Entred
+2019-10-17 14:49:18 [main] INFO  AppiumServer:156 - Sending OTP to +914444666666
+2019-10-17 14:49:18 [main] INFO  AppiumServer:158 - OTP Entered
+2019-10-17 14:49:25 [main] INFO  AppiumServer:177 - Fill Your Profile Page is Loaded
+2019-10-17 14:49:25 [main] INFO  AppiumServer:179 - Clicked on Avatar
+2019-10-17 14:49:26 [main] INFO  AppiumServer:183 - Gallery selected
+2019-10-17 14:49:29 [main] INFO  AppiumServer:188 - Gallery accessed
+2019-10-17 14:49:39 [main] INFO  AppiumServer:200 - Image uploaded
+2019-10-17 14:49:41 [main] INFO  AppiumServer:208 - Gender selected
+2019-10-17 14:49:42 [main] INFO  AppiumServer:210 - User Name Entered
+2019-10-17 14:49:47 [main] INFO  AppiumServer:213 - Welcome
+2019-10-17 14:51:22 [main] INFO  AppiumServer:53 - Appium server started successfully
+2019-10-17 14:51:42 [main] INFO  AppiumServer:85 - Joynt App Launched
+2019-10-17 14:51:59 [main] INFO  AppiumServer:115 - Signing up!
+2019-10-17 14:52:26 [main] INFO  AppiumServer:135 - Selecting Country Code
+2019-10-17 14:52:28 [main] INFO  AppiumServer:145 - Phone Number Entred
+2019-10-17 14:52:29 [main] INFO  AppiumServer:156 - Sending OTP to +914444666666
+2019-10-17 14:52:29 [main] INFO  AppiumServer:158 - OTP Entered
+2019-10-17 14:52:36 [main] INFO  AppiumServer:177 - Fill Your Profile Page is Loaded
+2019-10-17 14:52:36 [main] INFO  AppiumServer:179 - Clicked on Avatar
+2019-10-17 14:52:37 [main] INFO  AppiumServer:183 - Gallery selected
+2019-10-17 14:52:40 [main] INFO  AppiumServer:188 - Gallery accessed
+2019-10-17 14:52:50 [main] INFO  AppiumServer:200 - Image uploaded
+2019-10-17 14:52:52 [main] INFO  AppiumServer:208 - Gender selected
+2019-10-17 14:52:53 [main] INFO  AppiumServer:210 - User Name Entered
+2019-10-17 14:52:58 [main] INFO  AppiumServer:213 - Welcome
