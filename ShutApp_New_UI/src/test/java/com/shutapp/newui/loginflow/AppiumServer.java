@@ -213,7 +213,6 @@ public class AppiumServer {
 		driver.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
 		Log.info("Welcome");
 	}
-
 	/**
 	 * @return
 	 */
