@@ -73,7 +73,7 @@ public class AppiumServer {
 	}
 
 	// This method will Stop Appium server through command prompt
-	//	@AfterSuite
+	// @AfterSuite
 	public void stopServer() {
 		Runtime runtime = Runtime.getRuntime();
 		try {
@@ -85,7 +85,7 @@ public class AppiumServer {
 		}
 	}
 
-	//This method will launch the package activity and invoke the app.
+	// This method will launch the package activity and invoke the app.
 	@BeforeTest
 	public void Capabilities() throws MalformedURLException {
 		DesiredCapabilities cap = new DesiredCapabilities();
@@ -102,7 +102,7 @@ public class AppiumServer {
 		Log.info("Joynt App Launched");
 	}
 
-	//This method is used to swipe On Boarding Screen.
+	// This method is used to swipe On Boarding Screen.
 	@Test(priority = 1)
 	public void OnBoardingScreen() throws MalformedURLException, InterruptedException {
 		for (int i = 0; i < 3; i++) {
@@ -112,8 +112,8 @@ public class AppiumServer {
 		driver.findElementById("in.dbst.shutappv1.dev:id/sign_up").click();
 		Log.info("Signing up!");
 	}
-	
-	//This Method will select country code and enter phone number.
+
+	// This Method will select country code and enter phone number.
 	@Test(priority = 2)
 	public void MobileNumber() throws MalformedURLException, InterruptedException {
 		if (driver == null) {
@@ -145,7 +145,7 @@ public class AppiumServer {
 
 	}
 
-	//This method will enter OTP.
+	// This method will enter OTP.
 	@Test(priority = 3)
 	public void OTP() throws MalformedURLException, InterruptedException {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -162,7 +162,7 @@ public class AppiumServer {
 		}
 	}
 
-	//This method is used to Add profile pic, select gender and enter user name.
+	// This method is used to Add profile pic, select gender and enter user name.
 	@Test(priority = 4)
 	public void EnterUserName() throws MalformedURLException, InterruptedException {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
