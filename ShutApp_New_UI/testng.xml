@@ -2,7 +2,7 @@
 <suite name="Example test run">
   <test name="Simple Test">
     <classes>
-      <class name="com.shutapp.newui.sendBulkmessage.CreatePrivateGroupTest"/>
+      <class name="com.shutapp.newui.loginflow.AppiumServer.java"/>
     </classes>
   </test>
 </suite>
