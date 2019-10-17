@@ -1,38 +1,51 @@
 package com.shutapp.newui.loginflow;
 
 import io.appium.java_client.MobileElement;
-import io.appium.java_client.PerformsTouchActions;
-import io.appium.java_client.TouchAction;
+
 import io.appium.java_client.android.AndroidDriver;
+
 import io.appium.java_client.android.AndroidElement;
+
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
+
 import io.appium.java_client.remote.AutomationName;
+
 import io.appium.java_client.remote.MobileCapabilityType;
-import io.appium.java_client.touch.WaitOptions;
-import io.appium.java_client.touch.offset.PointOption;
 
 import org.apache.logging.log4j.LogManager;
+
 import org.apache.logging.log4j.Logger;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
+
 import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.WebElement;
+
 import org.openqa.selenium.remote.DesiredCapabilities;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
+
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import org.testng.annotations.BeforeSuite;
+
 import org.testng.annotations.BeforeTest;
+
 import org.testng.annotations.Test;
 
 import files.resources;
 
 import java.io.IOException;
+
 import java.net.MalformedURLException;
+
 import java.net.URL;
-import java.time.Duration;
+
 import java.util.List;
+
 import java.util.NoSuchElementException;
+
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -60,7 +73,7 @@ public class AppiumServer {
 	}
 
 	// This method will Stop Appium server through command prompt
-//	@AfterSuite
+	//	@AfterSuite
 	public void stopServer() {
 		Runtime runtime = Runtime.getRuntime();
 		try {
@@ -72,6 +85,7 @@ public class AppiumServer {
 		}
 	}
 
+	//This method will launch the package activity and invoke the app.
 	@BeforeTest
 	public void Capabilities() throws MalformedURLException {
 		DesiredCapabilities cap = new DesiredCapabilities();
@@ -88,6 +102,7 @@ public class AppiumServer {
 		Log.info("Joynt App Launched");
 	}
 
+	//This method is used to swipe On Boarding Screen.
 	@Test(priority = 1)
 	public void OnBoardingScreen() throws MalformedURLException, InterruptedException {
 		for (int i = 0; i < 3; i++) {
@@ -97,7 +112,8 @@ public class AppiumServer {
 		driver.findElementById("in.dbst.shutappv1.dev:id/sign_up").click();
 		Log.info("Signing up!");
 	}
-
+	
+	//This Method will select country code and enter phone number.
 	@Test(priority = 2)
 	public void MobileNumber() throws MalformedURLException, InterruptedException {
 		if (driver == null) {
@@ -129,6 +145,7 @@ public class AppiumServer {
 
 	}
 
+	//This method will enter OTP.
 	@Test(priority = 3)
 	public void OTP() throws MalformedURLException, InterruptedException {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -145,6 +162,7 @@ public class AppiumServer {
 		}
 	}
 
+	//This method is used to Add profile pic, select gender and enter user name.
 	@Test(priority = 4)
 	public void EnterUserName() throws MalformedURLException, InterruptedException {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
