@@ -28,6 +28,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
+import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
@@ -81,7 +82,7 @@ public class AppiumServer {
 				"in.dbst.shutappv1.ui.components.launcher.ActivityLauncher");
 		driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		Log.info("Joyntt App Launched");
+		Log.info("Joynt App Launched");
 	}
 
 	public static void SwipeScreen(WebElement el, WebDriver driver) throws InterruptedException {
@@ -108,18 +109,10 @@ public class AppiumServer {
 	public void OnBoardingScreen() throws MalformedURLException, InterruptedException {
 		for (int i = 0; i < 3; i++) {
 			SwipeScreen(el, driver);
+
 		}
-
-	}
-
-	// @Test(priority = 1)
-	public void OnBoardingScreenOne() throws MalformedURLException, InterruptedException {
-		Log.info("Page 1: " + driver.findElementById("in.dbst.shutappv1.dev:id/header").getText());
-		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
-		Log.info("Page 2: " + driver.findElementById("in.dbst.shutappv1.dev:id/header").getText());
-		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
-		Log.info("Page 3: " + driver.findElementById("in.dbst.shutappv1.dev:id/header").getText());
-		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
+		driver.findElementById("in.dbst.shutappv1.dev:id/sign_up").click();
+		Log.info("Signing up");
 	}
 
 	@Test(priority = 2)
@@ -149,7 +142,7 @@ public class AppiumServer {
 
 		driver.findElementById("in.dbst.shutappv1.dev:id/input_number").sendKeys("4444666666");
 		driver.findElementById("in.dbst.shutappv1.dev:id/send_otp_btn").click();
-		Log.info("OTP Sent");
+		Log.info("Phone Number Entred");
 
 	}
 
@@ -162,6 +155,7 @@ public class AppiumServer {
 			Log.debug("OTP Page Launched");
 			Log.info(driver.findElementById("in.dbst.shutappv1.dev:id/otp_phone_number").getText());
 			driver.findElementById("in.dbst.shutappv1.dev:id/otp_edit_text").sendKeys("123456");
+			Log.info("OTP Entered");
 			driver.findElementById("in.dbst.shutappv1.dev:id/send_otp_btn").click();
 		} catch (TimeoutException e) {
 			Log.fatal("Page not uploaded in 60 sec");
@@ -183,22 +177,23 @@ public class AppiumServer {
 		Log.info(Fill_Your_Profile + " Page is Loaded");
 		driver.findElementById("in.dbst.shutappv1.dev:id/profile_pic").click();
 		Log.info("Clicked on Avatar");
-		driver.findElementById("in.dbst.shutappv1.dev:id/chat_attachment_dialog_btn_camera").click();
-		Log.info("Camera selected");
-//		driver.findElementById("in.dbst.shutappv1.dev:id/chat_attachment_dialog_btn_gallery").click();
-//		driver.findElementByXPath("//android.widget.LinearLayout[@index='3']").click();
+//		driver.findElementById("in.dbst.shutappv1.dev:id/chat_attachment_dialog_btn_camera").click();
+//		Log.info("Camera selected");
+		driver.findElementById("in.dbst.shutappv1.dev:id/chat_attachment_dialog_btn_gallery").click();
+		Log.info("Gallery selected");
 		driver.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
-		Log.info("Camera accessed");
-		driver.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
-		Log.info("Photos and media accessesd");
+		List<AndroidElement> list = driver.findElements(By.id("in.dbst.shutappv1.dev:id/imageView"));
+		list.get(0).click();
+//		driver.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
+		Log.info("Gallery accessed");
 //		driver.findElementByXPath("//android.widget.LinearLayout[@index='6']").click(); //MI A2
 //		log.info("Image uploading"); //MI A2
 //		driver.findElementByAccessibilityId("Shutter button").click();//MI A2
-		driver.findElementByXPath("//GLButton[@text='Shutter']").click(); // --Samsung--//
-		Log.info("Image captured");
+//		driver.findElementByXPath("//GLButton[@text='Shutter']").click(); // --Samsung--//
+//		Log.info("Image captured");
 //		driver.findElementByAccessibilityId("Done").click();
-		driver.findElementById("com.sec.android.app.camera:id/okay").click(); // --Samsung--//
-		Log.info("click on Done");
+//		driver.findElementById("com.sec.android.app.camera:id/okay").click(); // --Samsung--//
+//		Log.info("click on Done");
 		try {
 			new WebDriverWait(driver, 60).until(ExpectedConditions
 					.invisibilityOfElementLocated(By.id("in.dbst.shutappv1.dev:id/dp_image_progressbar")));
@@ -212,55 +207,15 @@ public class AppiumServer {
 		driver.findElementById("in.dbst.shutappv1.dev:id/male_gender_parent_layout").click();
 		Log.info("Gender selected");
 		driver.findElementById("in.dbst.shutappv1.dev:id/user_name_text").sendKeys("Sharath");
+		Log.info("User Name Entered");
 		driver.findElementById("in.dbst.shutappv1.dev:id/action_next").click();
-	}
-
-	@Test(priority = 5)
-	public void OnBoardingScreenThree() throws MalformedURLException, InterruptedException {
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		Log.info("Page 1: " + driver.findElementById("in.dbst.shutappv1.dev:id/hide_chat_header").getText());
-		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
-		Log.info("Page 2: " + driver.findElementById("in.dbst.shutappv1.dev:id/on_board_one_header").getText());
-		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
-		Log.info("Page 3: " + driver.findElementById("in.dbst.shutappv1.dev:id/un_hide_chat_header").getText());
-		driver.findElementById("in.dbst.shutappv1.dev:id/next_btn").click();
+		driver.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
+		Log.info("Welcome");
 	}
 
 	/**
 	 * @return
 	 */
-	@Test(priority = 6)
-	public void ShutMode() throws MalformedURLException, InterruptedException {
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-
-		Log.info(driver.findElementById("in.dbst.shutappv1.dev:id/set_pin_header").getText());
-		MobileElement EneterNewPin = driver.findElementById("in.dbst.shutappv1.dev:id/shutmode_pin_view");
-		EneterNewPin.sendKeys("1111");
-		driver.hideKeyboard();
-		driver.findElementById("in.dbst.shutappv1.dev:id/set_lock_btn").click();
-
-		Log.info(driver.findElementById("in.dbst.shutappv1.dev:id/set_pin_header").getText());
-		MobileElement Reenter_pin = driver.findElementById("in.dbst.shutappv1.dev:id/shutmode_pin_view");
-		Reenter_pin.sendKeys("1117");
-		driver.hideKeyboard();
-		driver.findElementById("in.dbst.shutappv1.dev:id/set_lock_btn").click();
-
-		MobileElement PopUpTetx = driver.findElementById("in.dbst.shutappv1.dev:id/pop_up_text");
-		if (PopUpTetx.isDisplayed()) {
-			driver.findElementById("in.dbst.shutappv1.dev:id/set_pin_back").click();
-			EneterNewPin.sendKeys("1111");
-			driver.hideKeyboard();
-			driver.findElementById("in.dbst.shutappv1.dev:id/set_lock_btn").click();
-			Reenter_pin.sendKeys("1111");
-			driver.hideKeyboard();
-			driver.findElementById("in.dbst.shutappv1.dev:id/set_lock_btn").click();
-			driver.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
-		} else {
-			Log.fatal("Unable to set Lock");
-		}
-		Log.info("Welcome");
-	}
-
 	public AndroidDriver<AndroidElement> fetch_driver() {
 		return driver;
 	}
