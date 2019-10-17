@@ -112,7 +112,7 @@ public class AppiumServer {
 
 		}
 		driver.findElementById("in.dbst.shutappv1.dev:id/sign_up").click();
-		Log.info("Signing up");
+		Log.info("Signing up!");
 	}
 
 	@Test(priority = 2)
