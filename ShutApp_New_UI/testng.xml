@@ -2,7 +2,7 @@
 <suite name="Example test run">
   <test name="Simple Test">
     <classes>
-      <class name="com.shutapp.newui.loginflow.AppiumServer.java"/>
+      <class name="com.shutapp.newui.loginflow.AppiumServer"/>
     </classes>
   </test>
 </suite>
