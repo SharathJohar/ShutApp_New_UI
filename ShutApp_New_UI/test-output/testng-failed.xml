@@ -6,10 +6,7 @@
       <class name="com.shutapp.newui.loginflow.AppiumServer">
         <methods>
           <include name="Capabilities"/>
-          <include name="ShutMode"/>
-          <include name="MobileNumber"/>
           <include name="EnterUserName"/>
-          <include name="OnBoardingScreenThree"/>
           <include name="startServer"/>
         </methods>
       </class> <!-- com.shutapp.newui.loginflow.AppiumServer -->
