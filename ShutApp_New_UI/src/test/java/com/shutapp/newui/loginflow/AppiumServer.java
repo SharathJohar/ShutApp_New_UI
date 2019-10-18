@@ -42,8 +42,6 @@ import java.net.MalformedURLException;
 
 import java.net.URL;
 
-import java.util.List;
-
 import java.util.NoSuchElementException;
 
 import java.util.concurrent.TimeUnit;
@@ -176,25 +174,7 @@ public class AppiumServer {
 		WebElement FillYourProfile = driver.findElementByXPath("//android.widget.TextView[@text='Fill Your Profile']");
 		String Fill_Your_Profile = FillYourProfile.getText();
 		Log.info(Fill_Your_Profile + " Page is Loaded");
-		driver.findElementById("in.dbst.shutappv1.dev:id/profile_pic").click();
-		Log.info("Clicked on Avatar");
-//		driver.findElementById("in.dbst.shutappv1.dev:id/chat_attachment_dialog_btn_camera").click();
-//		Log.info("Camera selected");
-		driver.findElementById("in.dbst.shutappv1.dev:id/chat_attachment_dialog_btn_gallery").click();
-		Log.info("Gallery selected");
-		driver.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
-		List<AndroidElement> list = driver.findElements(By.id("in.dbst.shutappv1.dev:id/imageView"));
-		list.get(0).click();
-//		driver.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
-		Log.info("Gallery accessed");
-//		driver.findElementByXPath("//android.widget.LinearLayout[@index='6']").click(); //MI A2
-//		log.info("Image uploading"); //MI A2
-//		driver.findElementByAccessibilityId("Shutter button").click();//MI A2
-//		driver.findElementByXPath("//GLButton[@text='Shutter']").click(); // --Samsung--//
-//		Log.info("Image captured");
-//		driver.findElementByAccessibilityId("Done").click();
-//		driver.findElementById("com.sec.android.app.camera:id/okay").click(); // --Samsung--//
-//		Log.info("click on Done");
+		resources.FillYourProfileGallery(driver);
 		try {
 			new WebDriverWait(driver, 60).until(ExpectedConditions
 					.invisibilityOfElementLocated(By.id("in.dbst.shutappv1.dev:id/dp_image_progressbar")));
@@ -213,6 +193,7 @@ public class AppiumServer {
 		driver.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
 		Log.info("Welcome");
 	}
+
 	/**
 	 * @return
 	 */

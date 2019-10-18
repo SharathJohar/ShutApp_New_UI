@@ -55,7 +55,7 @@ public class CreatePrivateGroupTest extends AppiumServer {
 		driver.findElementByXPath("//android.widget.TextView[@text='Neeraj ShutApp'] ").click();
 		driver.findElementByXPath("//android.widget.TextView[@text='Ravi ShutApp'] ").click();
 		driver.findElementByAndroidUIAutomator(
-				"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Vivek Shutapp\").instance(0))");	
+				"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Vivek Shutapp\").instance(0))");
 		driver.findElementByXPath("//android.widget.TextView[@text='Sagar ShutApp'] ").click();
 		driver.findElementByXPath("//android.widget.TextView[@text='Sindhu'] ").click();
 		driver.findElementByXPath("//android.widget.TextView[@text='ShutApp 4'] ").click();
@@ -81,7 +81,7 @@ public class CreatePrivateGroupTest extends AppiumServer {
 		Log.info("Group successfully created");
 	}
 
-	//@Test(priority = 8)
+	// @Test(priority = 8)
 	// This method will send TTL messages and verify Auto delete
 	public void TTL() throws MalformedURLException, InterruptedException {
 
@@ -109,7 +109,7 @@ public class CreatePrivateGroupTest extends AppiumServer {
 		driver.findElementById("in.dbst.shutappv1.dev:id/btn_ok").click();
 	}
 
-	//@Test(priority = 9)
+	// @Test(priority = 9)
 	// This method will send text messages in Bulk
 	public void TextMessage() throws MalformedURLException, InterruptedException {
 
@@ -124,7 +124,7 @@ public class CreatePrivateGroupTest extends AppiumServer {
 		Log.info("Text Messages sent Successfully");
 	}
 
-	//@Test(priority = 10)
+	// @Test(priority = 10)
 	// This method will send Anonymous text messages in Bulk
 	public void AnonymousTextMessage() throws MalformedURLException, InterruptedException {
 

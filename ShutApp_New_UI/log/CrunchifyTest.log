@@ -766,3 +766,128 @@
 2019-10-17 15:32:18 [main] INFO  AppiumServer:191 - Gender selected
 2019-10-17 15:32:19 [main] INFO  AppiumServer:193 - User Name Entered
 2019-10-17 15:32:23 [main] INFO  AppiumServer:196 - Welcome
+2019-10-17 16:07:05 [main] INFO  AppiumServer:69 - Appium server started successfully
+2019-10-17 16:07:24 [main] INFO  AppiumServer:102 - Joynt App Launched
+2019-10-17 16:07:42 [main] INFO  AppiumServer:113 - Signing up!
+2019-10-17 16:08:08 [main] INFO  AppiumServer:134 - Selecting Country Code
+2019-10-17 16:08:10 [main] INFO  AppiumServer:144 - Phone Number Entred
+2019-10-17 16:08:12 [main] INFO  AppiumServer:156 - Sending OTP to +914444666666
+2019-10-17 16:08:12 [main] INFO  AppiumServer:158 - OTP Entered
+2019-10-17 16:08:19 [main] INFO  AppiumServer:178 - Fill Your Profile Page is Loaded
+2019-10-17 16:08:19 [main] INFO  AppiumServer:180 - Clicked on Avatar
+2019-10-17 16:08:20 [main] INFO  AppiumServer:184 - Gallery selected
+2019-10-17 16:08:24 [main] INFO  AppiumServer:189 - Gallery accessed
+2019-10-17 16:08:34 [main] INFO  AppiumServer:201 - Image uploaded
+2019-10-17 16:08:36 [main] INFO  AppiumServer:209 - Gender selected
+2019-10-17 16:08:37 [main] INFO  AppiumServer:211 - User Name Entered
+2019-10-17 16:08:42 [main] INFO  AppiumServer:214 - Welcome
+2019-10-17 16:11:04 [main] INFO  AppiumServer:69 - Appium server started successfully
+2019-10-17 16:11:20 [main] INFO  AppiumServer:102 - Joynt App Launched
+2019-10-17 16:11:38 [main] INFO  AppiumServer:113 - Signing up!
+2019-10-17 16:12:04 [main] INFO  AppiumServer:134 - Selecting Country Code
+2019-10-17 16:12:06 [main] INFO  AppiumServer:144 - Phone Number Entred
+2019-10-17 16:12:07 [main] INFO  AppiumServer:156 - Sending OTP to +914444666666
+2019-10-17 16:12:07 [main] INFO  AppiumServer:158 - OTP Entered
+2019-10-17 16:12:14 [main] INFO  AppiumServer:178 - Fill Your Profile Page is Loaded
+2019-10-17 16:12:14 [main] INFO  AppiumServer:180 - Clicked on Avatar
+2019-10-17 16:12:15 [main] INFO  AppiumServer:184 - Gallery selected
+2019-10-17 16:12:18 [main] INFO  AppiumServer:189 - Gallery accessed
+2019-10-17 16:12:23 [main] INFO  AppiumServer:201 - Image uploaded
+2019-10-17 16:12:25 [main] INFO  AppiumServer:209 - Gender selected
+2019-10-17 16:12:26 [main] INFO  AppiumServer:211 - User Name Entered
+2019-10-17 16:12:31 [main] INFO  AppiumServer:214 - Welcome
+2019-10-18 12:28:03 [main] INFO  AppiumServer:69 - Appium server started successfully
+2019-10-18 12:28:28 [main] INFO  AppiumServer:102 - Joynt App Launched
+2019-10-18 12:28:46 [main] INFO  AppiumServer:113 - Signing up!
+2019-10-18 12:29:14 [main] INFO  AppiumServer:134 - Selecting Country Code
+2019-10-18 12:29:16 [main] INFO  AppiumServer:144 - Phone Number Entred
+2019-10-18 12:29:17 [main] INFO  AppiumServer:156 - Sending OTP to +914444666666
+2019-10-18 12:29:18 [main] INFO  AppiumServer:158 - OTP Entered
+2019-10-18 12:29:24 [main] INFO  AppiumServer:178 - Fill Your Profile Page is Loaded
+2019-10-18 12:29:24 [main] INFO  AppiumServer:180 - Clicked on Avatar
+2019-10-18 12:29:25 [main] INFO  AppiumServer:184 - Gallery selected
+2019-10-18 12:29:29 [main] INFO  AppiumServer:189 - Gallery accessed
+2019-10-18 12:29:39 [main] INFO  AppiumServer:201 - Image uploaded
+2019-10-18 12:29:41 [main] INFO  AppiumServer:209 - Gender selected
+2019-10-18 12:29:42 [main] INFO  AppiumServer:211 - User Name Entered
+2019-10-18 12:29:47 [main] INFO  AppiumServer:214 - Welcome
+2019-10-18 13:30:47 [main] INFO  AppiumServer:69 - Appium server started successfully
+2019-10-18 13:31:10 [main] INFO  AppiumServer:102 - Joynt App Launched
+2019-10-18 13:31:27 [main] INFO  AppiumServer:113 - Signing up!
+2019-10-18 13:31:54 [main] INFO  AppiumServer:134 - Selecting Country Code
+2019-10-18 13:31:56 [main] INFO  AppiumServer:144 - Phone Number Entred
+2019-10-18 13:31:57 [main] INFO  AppiumServer:156 - Sending OTP to +914444666666
+2019-10-18 13:31:57 [main] INFO  AppiumServer:158 - OTP Entered
+2019-10-18 13:32:03 [main] INFO  AppiumServer:178 - Fill Your Profile Page is Loaded
+2019-10-18 13:38:40 [main] INFO  AppiumServer:69 - Appium server started successfully
+2019-10-18 13:38:55 [main] INFO  AppiumServer:69 - Appium server started successfully
+2019-10-18 13:39:10 [main] INFO  AppiumServer:102 - Joynt App Launched
+2019-10-18 13:39:28 [main] INFO  AppiumServer:113 - Signing up!
+2019-10-18 13:39:54 [main] INFO  AppiumServer:134 - Selecting Country Code
+2019-10-18 13:39:56 [main] INFO  AppiumServer:144 - Phone Number Entred
+2019-10-18 13:39:57 [main] INFO  AppiumServer:156 - Sending OTP to +914444666666
+2019-10-18 13:39:57 [main] INFO  AppiumServer:158 - OTP Entered
+2019-10-18 13:40:04 [main] INFO  AppiumServer:178 - Fill Your Profile Page is Loaded
+2019-10-18 13:45:54 [main] INFO  AppiumServer:69 - Appium server started successfully
+2019-10-18 13:46:11 [main] INFO  AppiumServer:102 - Joynt App Launched
+2019-10-18 13:46:29 [main] INFO  AppiumServer:113 - Signing up!
+2019-10-18 13:46:55 [main] INFO  AppiumServer:134 - Selecting Country Code
+2019-10-18 13:46:57 [main] INFO  AppiumServer:144 - Phone Number Entred
+2019-10-18 13:46:58 [main] INFO  AppiumServer:156 - Sending OTP to +914444666666
+2019-10-18 13:46:58 [main] INFO  AppiumServer:158 - OTP Entered
+2019-10-18 13:47:05 [main] INFO  AppiumServer:178 - Fill Your Profile Page is Loaded
+2019-10-18 13:57:05 [main] INFO  AppiumServer:69 - Appium server started successfully
+2019-10-18 13:57:20 [main] INFO  AppiumServer:102 - Joynt App Launched
+2019-10-18 13:57:38 [main] INFO  AppiumServer:113 - Signing up!
+2019-10-18 13:58:03 [main] INFO  AppiumServer:134 - Selecting Country Code
+2019-10-18 13:58:05 [main] INFO  AppiumServer:144 - Phone Number Entred
+2019-10-18 13:58:06 [main] INFO  AppiumServer:156 - Sending OTP to +914444666666
+2019-10-18 13:58:07 [main] INFO  AppiumServer:158 - OTP Entered
+2019-10-18 13:58:14 [main] INFO  AppiumServer:178 - Fill Your Profile Page is Loaded
+2019-10-18 14:05:55 [main] INFO  AppiumServer:69 - Appium server started successfully
+2019-10-18 14:06:11 [main] INFO  AppiumServer:102 - Joynt App Launched
+2019-10-18 14:06:28 [main] INFO  AppiumServer:113 - Signing up!
+2019-10-18 14:06:54 [main] INFO  AppiumServer:134 - Selecting Country Code
+2019-10-18 14:06:56 [main] INFO  AppiumServer:144 - Phone Number Entred
+2019-10-18 14:06:57 [main] INFO  AppiumServer:156 - Sending OTP to +914444666666
+2019-10-18 14:06:58 [main] INFO  AppiumServer:158 - OTP Entered
+2019-10-18 14:07:04 [main] INFO  AppiumServer:178 - Fill Your Profile Page is Loaded
+2019-10-18 14:07:04 [main] INFO  resources:40 - Clicked on Avatar
+2019-10-18 14:07:05 [main] INFO  resources:42 - Camera selected
+2019-10-18 14:07:10 [main] INFO  resources:46 - Image captured
+2019-10-18 14:07:15 [main] INFO  resources:48 - click on Done
+2019-10-18 14:07:26 [main] INFO  AppiumServer:183 - Image uploaded
+2019-10-18 14:07:28 [main] INFO  AppiumServer:191 - Gender selected
+2019-10-18 14:07:29 [main] INFO  AppiumServer:193 - User Name Entered
+2019-10-18 14:07:34 [main] INFO  AppiumServer:196 - Welcome
+2019-10-18 14:11:18 [main] INFO  AppiumServer:69 - Appium server started successfully
+2019-10-18 14:11:33 [main] INFO  AppiumServer:102 - Joynt App Launched
+2019-10-18 14:11:51 [main] INFO  AppiumServer:113 - Signing up!
+2019-10-18 14:12:17 [main] INFO  AppiumServer:134 - Selecting Country Code
+2019-10-18 14:12:19 [main] INFO  AppiumServer:144 - Phone Number Entred
+2019-10-18 14:12:20 [main] INFO  AppiumServer:156 - Sending OTP to +914444666666
+2019-10-18 14:12:20 [main] INFO  AppiumServer:158 - OTP Entered
+2019-10-18 14:12:27 [main] INFO  AppiumServer:178 - Fill Your Profile Page is Loaded
+2019-10-18 14:12:27 [main] INFO  resources:39 - Clicked on Avatar
+2019-10-18 14:12:28 [main] INFO  resources:41 - Camera selected
+2019-10-18 14:12:33 [main] INFO  resources:45 - Image captured
+2019-10-18 14:12:37 [main] INFO  resources:47 - click on Done
+2019-10-18 14:12:48 [main] INFO  AppiumServer:183 - Image uploaded
+2019-10-18 14:12:50 [main] INFO  AppiumServer:191 - Gender selected
+2019-10-18 14:12:52 [main] INFO  AppiumServer:193 - User Name Entered
+2019-10-18 14:12:56 [main] INFO  AppiumServer:196 - Welcome
+2019-10-18 14:13:29 [main] INFO  AppiumServer:69 - Appium server started successfully
+2019-10-18 14:13:45 [main] INFO  AppiumServer:102 - Joynt App Launched
+2019-10-18 14:14:03 [main] INFO  AppiumServer:113 - Signing up!
+2019-10-18 14:14:29 [main] INFO  AppiumServer:134 - Selecting Country Code
+2019-10-18 14:14:31 [main] INFO  AppiumServer:144 - Phone Number Entred
+2019-10-18 14:14:32 [main] INFO  AppiumServer:156 - Sending OTP to +914444666666
+2019-10-18 14:14:33 [main] INFO  AppiumServer:158 - OTP Entered
+2019-10-18 14:14:40 [main] INFO  AppiumServer:178 - Fill Your Profile Page is Loaded
+2019-10-18 14:14:40 [main] INFO  resources:53 - Clicked on Avatar
+2019-10-18 14:14:41 [main] INFO  resources:55 - Gallery selected
+2019-10-18 14:14:45 [main] INFO  resources:59 - Gallery accessed
+2019-10-18 14:14:54 [main] INFO  AppiumServer:183 - Image uploaded
+2019-10-18 14:14:56 [main] INFO  AppiumServer:191 - Gender selected
+2019-10-18 14:14:57 [main] INFO  AppiumServer:193 - User Name Entered
+2019-10-18 14:15:02 [main] INFO  AppiumServer:196 - Welcome
