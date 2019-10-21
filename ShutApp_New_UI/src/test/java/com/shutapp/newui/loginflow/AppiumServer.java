@@ -47,7 +47,7 @@ import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author SHARATH
+ * @author Created By SHARATH 
  */
 public class AppiumServer {
 
@@ -55,7 +55,10 @@ public class AppiumServer {
 	static Logger Log = LogManager.getLogger(AppiumServer.class);
 	public WebElement el;
 
-	// This method will start Appium server through command prompt
+	/** 
+	 * this method start Appium server through command prompt
+	 * @param
+	 */
 	@BeforeSuite
 	public void startServer() {
 
@@ -70,7 +73,10 @@ public class AppiumServer {
 		}
 	}
 
-	// This method will Stop Appium server through command prompt
+	/** 
+	 * this method Stop Appium server through command prompt
+	 * @param
+	 */
 	// @AfterSuite
 	public void stopServer() {
 		Runtime runtime = Runtime.getRuntime();
@@ -83,7 +89,11 @@ public class AppiumServer {
 		}
 	}
 
-	// This method will launch the package activity and invoke the app.
+	/** 
+	 * this method creates the android driver
+	 * @param
+	 * @throws MalformedURLException Thrown to indicate that a malformed URL has occurred
+	 */
 	@BeforeTest
 	public void Capabilities() throws MalformedURLException {
 		DesiredCapabilities cap = new DesiredCapabilities();
@@ -100,10 +110,17 @@ public class AppiumServer {
 		Log.info("Joynt App Launched");
 	}
 
-	// This method is used to swipe On Boarding Screen.
+	/** 
+	 * this method swipe the on OnBoardingScreen
+	 * @param
+	 * @throws MalformedURLException Thrown to indicate that a malformed URL has occurred
+	 * @throws InterruptedException Thrown when a thread is waiting, sleeping, 
+	 * or otherwise occupied,and the thread is interrupted, either before 
+	 * or during the activity
+	 */
 	@Test(priority = 1)
 	public void OnBoardingScreen() throws MalformedURLException, InterruptedException {
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < 2; i++) {
 			resources.SwipeScreen(el, driver);
 
 		}
@@ -111,7 +128,14 @@ public class AppiumServer {
 		Log.info("Signing up!");
 	}
 
-	// This Method will select country code and enter phone number.
+	/** 
+	 * this Method will select country code and enter phone number.
+	 * @param
+	 * @throws MalformedURLException Thrown to indicate that a malformed URL has occurred
+	 * @throws InterruptedException Thrown when a thread is waiting, sleeping, 
+	 * or otherwise occupied,and the thread is interrupted, either before 
+	 * or during the activity
+	 */
 	@Test(priority = 2)
 	public void MobileNumber() throws MalformedURLException, InterruptedException {
 		if (driver == null) {
@@ -142,8 +166,15 @@ public class AppiumServer {
 		Log.info("Phone Number Entred");
 
 	}
-
-	// This method will enter OTP.
+	
+	/** 
+	 * this method will enter OTP.
+	 * @param
+	 * @throws MalformedURLException Thrown to indicate that a malformed URL has occurred
+	 * @throws InterruptedException Thrown when a thread is waiting, sleeping, 
+	 * or otherwise occupied,and the thread is interrupted, either before 
+	 * or during the activity
+	 */
 	@Test(priority = 3)
 	public void OTP() throws MalformedURLException, InterruptedException {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -159,8 +190,15 @@ public class AppiumServer {
 			Log.fatal("Page not uploaded in 60 sec");
 		}
 	}
-
-	// This method is used to Add profile pic, select gender and enter user name.
+	
+	/** 
+	 * 	this method is used to Add profile picture, select gender and enter user name & submit
+	 * @param
+	 * @throws MalformedURLException Thrown to indicate that a malformed URL has occurred
+	 * @throws InterruptedException Thrown when a thread is waiting, sleeping, 
+	 * or otherwise occupied,and the thread is interrupted, either before 
+	 * or during the activity
+	 */
 	@Test(priority = 4)
 	public void EnterUserName() throws MalformedURLException, InterruptedException {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);

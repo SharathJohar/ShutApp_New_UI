@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-10-17T08:28:30Z" name="Default suite" finished-at="2019-10-17T08:30:01Z" duration-ms="91401">
+  <suite started-at="2019-10-18T08:43:29Z" name="Default suite" finished-at="2019-10-18T08:45:02Z" duration-ms="92974">
     <groups>
     </groups>
-    <test started-at="2019-10-17T08:28:30Z" name="Default test" finished-at="2019-10-17T08:30:01Z" duration-ms="91401">
+    <test started-at="2019-10-18T08:43:29Z" name="Default test" finished-at="2019-10-18T08:45:02Z" duration-ms="92974">
       <class name="com.shutapp.newui.loginflow.AppiumServer">
-        <test-method is-config="true" signature="startServer()[pri:0, instance:com.shutapp.newui.loginflow.AppiumServer@7a1234bf]" started-at="2019-10-17T08:28:19Z" name="startServer" finished-at="2019-10-17T08:28:30Z" duration-ms="10072" status="PASS">
+        <test-method is-config="true" signature="startServer()[pri:0, instance:com.shutapp.newui.loginflow.AppiumServer@5ce8d869]" started-at="2019-10-18T08:43:19Z" name="startServer" finished-at="2019-10-18T08:43:29Z" duration-ms="10065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startServer -->
-        <test-method is-config="true" signature="Capabilities()[pri:0, instance:com.shutapp.newui.loginflow.AppiumServer@7a1234bf]" started-at="2019-10-17T08:28:30Z" name="Capabilities" finished-at="2019-10-17T08:28:44Z" duration-ms="14710" status="PASS">
+        <test-method is-config="true" signature="Capabilities()[pri:0, instance:com.shutapp.newui.loginflow.AppiumServer@5ce8d869]" started-at="2019-10-18T08:43:29Z" name="Capabilities" finished-at="2019-10-18T08:43:45Z" duration-ms="16162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Capabilities -->
-        <test-method signature="OnBoardingScreen()[pri:1, instance:com.shutapp.newui.loginflow.AppiumServer@7a1234bf]" started-at="2019-10-17T08:28:44Z" name="OnBoardingScreen" finished-at="2019-10-17T08:29:02Z" duration-ms="18091" status="PASS">
+        <test-method signature="OnBoardingScreen()[pri:1, instance:com.shutapp.newui.loginflow.AppiumServer@5ce8d869]" started-at="2019-10-18T08:43:45Z" name="OnBoardingScreen" finished-at="2019-10-18T08:44:03Z" duration-ms="17573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OnBoardingScreen -->
-        <test-method signature="MobileNumber()[pri:2, instance:com.shutapp.newui.loginflow.AppiumServer@7a1234bf]" started-at="2019-10-17T08:29:02Z" name="MobileNumber" finished-at="2019-10-17T08:29:31Z" duration-ms="28162" status="PASS">
+        <test-method signature="MobileNumber()[pri:2, instance:com.shutapp.newui.loginflow.AppiumServer@5ce8d869]" started-at="2019-10-18T08:44:03Z" name="MobileNumber" finished-at="2019-10-18T08:44:31Z" duration-ms="28416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileNumber -->
-        <test-method signature="OTP()[pri:3, instance:com.shutapp.newui.loginflow.AppiumServer@7a1234bf]" started-at="2019-10-17T08:29:31Z" name="OTP" finished-at="2019-10-17T08:29:32Z" duration-ms="1880" status="PASS">
+        <test-method signature="OTP()[pri:3, instance:com.shutapp.newui.loginflow.AppiumServer@5ce8d869]" started-at="2019-10-18T08:44:31Z" name="OTP" finished-at="2019-10-18T08:44:34Z" duration-ms="2785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OTP -->
-        <test-method signature="EnterUserName()[pri:4, instance:com.shutapp.newui.loginflow.AppiumServer@7a1234bf]" started-at="2019-10-17T08:29:32Z" name="EnterUserName" finished-at="2019-10-17T08:30:01Z" duration-ms="28544" status="PASS">
+        <test-method signature="EnterUserName()[pri:4, instance:com.shutapp.newui.loginflow.AppiumServer@5ce8d869]" started-at="2019-10-18T08:44:34Z" name="EnterUserName" finished-at="2019-10-18T08:45:02Z" duration-ms="28017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterUserName -->
